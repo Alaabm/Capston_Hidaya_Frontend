@@ -67,6 +67,19 @@ const MorningAthkar = () => {
           مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، اَلَّذِيْ يُوَسْوِسُ فِيْ
           صُدُوْرِ النَّاسِ ، مِنَ الْجِنَّةِ وَالنَّاسِ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
 
       <div className="forgiveness">
@@ -77,7 +90,22 @@ const MorningAthkar = () => {
           عَلَيَّ وَأَبُوْءُ لَكَ بِذَنْبِيْ ، فَاغْفِرْ لِيْ فَإِنَّهُ لَا
           يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="protection">
         <p>
           اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ ،
@@ -85,7 +113,22 @@ const MorningAthkar = () => {
           الْجُبْنِ وَالْبُخْلِ ، وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ
           وَقَهْرِ الرِّجَالِ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="hereafter">
         <p>
           اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا
@@ -95,7 +138,22 @@ const MorningAthkar = () => {
           يَدَيَّ ، وَمِنْ خَلْفِيْ ، وَعَنْ يَّمِيْنِيْ ، وَعَنْ شِمَالِيْ ،
           وَمِنْ فَوْقِيْ ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="evl">
         <p>
           اَللّٰهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ ، فَاطِرَ السَّمٰوَاتِ
@@ -104,20 +162,65 @@ const MorningAthkar = () => {
           شَرِّ الشَّيْطَانِ وَشِرْكِهِ ، وَأَنْ أَقْتَرِفَ عَلَىٰ نَفْسِيْ
           سُوْءًا ، أَوْ أَجُرَّهُ إِلَىٰ مُسْلِمٍ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="entrust">
         <p>
           يَا حَيُّ يَا قَيُّوْمُ ، بِرَحْمَتِكَ أَسْتَغِيْثُ أَصْلِحْ لِيْ
           شَأْنِيْ كُلَّهُ ، وَلَا تَكِلْنِيْ إِلَىٰ نَفْسِيْ طَرْفَةَ عَيْنٍ.
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="thankful">
         <p>
           اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِّعْمَةٍ أَوْ بِأَحَدٍ مِّنْ
           خَلْقِكَ ، فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، فَلَكَ الْحَمْدُ
           وَلَكَ الشُّكْرُ{" "}
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="tawhid">
         <p>
           أَصْبَحْنَا عَلَىٰ فِطْرَةِ الْإِسْلَامِ ، وَعَلَىٰ كَلِمَةِ
@@ -125,13 +228,43 @@ const MorningAthkar = () => {
           أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُّسْلِمًا وَّمَا كَانَ مِنَ
           الْمُشْرِكِيْنَ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="praise">
         <p>
           أَصْبَحْتُ أُثْنِيْ عَلَيْكَ حَمْدًا ، وَأَشْهَدُ أَنْ لَّا إِلٰهَ
           إِلَّا اللّٰهُ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="good">
         <p>
           أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ ، لَا
@@ -142,7 +275,22 @@ const MorningAthkar = () => {
           بَعْدَهُ ، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ وَسُوْءِ الْكِبَرِ ،
           رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="bless">
         <p>
           أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ ،
@@ -150,7 +298,22 @@ const MorningAthkar = () => {
           وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ ، وَأَعُوْذُ بِكَ مِنْ
           شَرِّ مَا فِيْهِ وَشَرِّ مَا بَعْدَهُ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="freed">
         <p>
           اَللّٰهُمَّ إِنِّيْ أَصْبَحْتُ أُشْهِدُكَ ، وَأُشْهِدُ حَمَلَةَ
@@ -158,13 +321,43 @@ const MorningAthkar = () => {
           لَا إِلٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، وَأَنَّ
           مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="morning">
         <p>
           اَللّٰهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ
           نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="health">
         <p>
           اَللّٰهُمَّ عَافِنِيْ فِيْ بَدَنِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ
@@ -172,40 +365,145 @@ const MorningAthkar = () => {
           أَنْتَ ، اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ،
           وأَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلٰهَ إِلَّا أَنْتَ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="suffice">
         <p>
           حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ ، عَلَيْهِ تَوَكَّلْتُ ،
           وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="admit">
         <p>
           رَضِيْتُ بِاللّٰهِ رَبًّا ، وَبِالْإِسْلَامِ دِيْنًا ، وَبِمُحَمَّدٍ
           نَّبِيًّا
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="harm">
         <p>
           بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ
           وَلَا فِي السَّمَاءِ ، وَهُوَ السَّمِيْعُ الْعَلِيْمُ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="forgiven">
         <p>سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ</p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="reward">
         <p>
           لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ
           وَلَهُ الْحَمْدُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ
         </p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="ttt">
         <p>سُبْحَانَ اللّٰهِ</p>
         <p>اَلْحَمْدُ لِلّٰهِ</p>
         <p> اَللّٰهُ أَكْبَرُ</p>
         <p>100x</p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="intercession">
         <p>
           اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَّعَلَىٰ اٰلِ مُحَمَّدٍ ، كَمَا
@@ -215,17 +513,60 @@ const MorningAthkar = () => {
           إِبْرَاهِيْمَ ، إِنَّكَ حَمِيْدٌ مَّجِيْدٌ
         </p>
         <p>10x</p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="repent">
         <p>أَسْتَغْفِرُ اللّٰهَ وَأَتُوْبُ إِلَيْهِ</p>
         <p>100x</p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
+
+
       <div className="outweigh">
         <p>
           سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ ،
           وَزِنَةَ عَرْشِهِ ، وَمِدَادَ كَلِمَاتِهِ
         </p>
         <p>3x</p>
+        <div className="morning-collapse">
+          <InfoCollapse buttonText="Transliteration">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+          <br />
+          <InfoCollapse buttonText="Translation">
+            <p>
+              
+            </p>
+          </InfoCollapse>
+        </div>
       </div>
     </>
   );
