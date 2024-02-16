@@ -45,7 +45,7 @@ const MorningAthkar = () => {
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="muawidat">
         <h2>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
         <p>
@@ -70,18 +70,36 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul Huwa-llāhu Aḥad. Allāhu-ṣ-Ṣamad. Lam yalid wa lam yūlad. Wa lam yakul-lahū kufuwan aḥad. Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul aʿūdhu bi-Rabbi-l-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharri-n-naffāthāti fi-l-ʿuqad. Wa min sharri ḥāsidin idhā ḥasad. Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul aʿūdhu bi-Rabbi-n-nās. Maliki-n-nās. Ilāh-hin-nās. Min sharri-l-waswāsi-l-khannās. Al-ladhī yuwaswisu fī ṣudūri-n-nās. Mina-l-jinnati wa-n-nās.
+              Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul Huwa-llāhu Aḥad.
+              Allāhu-ṣ-Ṣamad. Lam yalid wa lam yūlad. Wa lam yakul-lahū kufuwan
+              aḥad. Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul aʿūdhu bi-Rabbi-l-falaq.
+              Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min
+              sharri-n-naffāthāti fi-l-ʿuqad. Wa min sharri ḥāsidin idhā ḥasad.
+              Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul aʿūdhu bi-Rabbi-n-nās.
+              Maliki-n-nās. Ilāh-hin-nās. Min sharri-l-waswāsi-l-khannās.
+              Al-ladhī yuwaswisu fī ṣudūri-n-nās. Mina-l-jinnati wa-n-nās.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            In the name of Allah, the All-Merciful, the Very Merciful. Say, He is Allah, the One, the Self-Sufficient Master, Who has not given birth and was not born, and to Whom no one is equal. (112) In the name of Allah, the All-Merciful, the Very Merciful. Say, I seek protection of the Lord of the daybreak, from the evil of what He has created, and from the evil of the darkening night when it settles, and from the evil of the blowers in knots, and from the evil of the envier when he envies. (113) In the name of Allah, the All-Merciful, the Very Merciful. Say, I seek protection of the Lord of mankind, the King of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the hearts of mankind, whether they be Jinn or people. (114)
+              In the name of Allah, the All-Merciful, the Very Merciful. Say, He
+              is Allah, the One, the Self-Sufficient Master, Who has not given
+              birth and was not born, and to Whom no one is equal. (112) In the
+              name of Allah, the All-Merciful, the Very Merciful. Say, I seek
+              protection of the Lord of the daybreak, from the evil of what He
+              has created, and from the evil of the darkening night when it
+              settles, and from the evil of the blowers in knots, and from the
+              evil of the envier when he envies. (113) In the name of Allah, the
+              All-Merciful, the Very Merciful. Say, I seek protection of the
+              Lord of mankind, the King of mankind, the God of mankind, from the
+              evil of the whisperer who withdraws, who whispers in the hearts of
+              mankind, whether they be Jinn or people. (114)
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="forgiveness">
         <p>
           اَللّٰهُمَّ أَنْتَ رَبِّيْ لَا إِلٰهَ إِلَّا أَنْتَ خَلَقْتَنِيْ
@@ -93,40 +111,54 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma Anta Rabbī, lā ilāha illā Ant, khalaqtanī wa ana ʿabduk, wa ana ʿalā ʿahdika wa waʿdika mā’staṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abū’u laka bi niʿmatika ʿalayya wa abū’u laka bi-dhambī fa-ghfir lī fa-innahū lā yaghfiru-dh-dhunūba illā Ant.
+              Allāhumma Anta Rabbī, lā ilāha illā Ant, khalaqtanī wa ana ʿabduk,
+              wa ana ʿalā ʿahdika wa waʿdika mā’staṭaʿt, aʿūdhu bika min sharri
+              mā ṣanaʿt, abū’u laka bi niʿmatika ʿalayya wa abū’u laka bi-dhambī
+              fa-ghfir lī fa-innahū lā yaghfiru-dh-dhunūba illā Ant.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, You are my Lord. There is no god worthy of worship except You. You have created me, and I am Your slave, and I am under Your covenant and pledge (to fulfil it) to the best of my ability. I seek Your protection from the evil that I have done. I acknowledge the favours that You have bestowed upon me, and I admit my sins. Forgive me, for none forgives sins but You.
+              O Allah, You are my Lord. There is no god worthy of worship except
+              You. You have created me, and I am Your slave, and I am under Your
+              covenant and pledge (to fulfil it) to the best of my ability. I
+              seek Your protection from the evil that I have done. I acknowledge
+              the favours that You have bestowed upon me, and I admit my sins.
+              Forgive me, for none forgives sins but You.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="protection">
         <p>
-          اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ 
-          وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوْذُ بِكَ مِنَ
-          الْجُبْنِ وَالْبُخْلِ ، وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ
-          وَقَهْرِ الرِّجَالِ
+          اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ
+          بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ
+          وَالْبُخْلِ ، وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ
+          الرِّجَالِ
         </p>
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
+              Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika
+              min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa
+              aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.
+              O Allah, I seek Your protection from anxiety and grief. I seek
+              Your protection from inability and laziness. I seek Your
+              protection from cowardice and miserliness, and I seek Your
+              protection from being overcome by debt and being overpowered by
+              men.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="hereafter">
         <p>
           اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا
@@ -139,18 +171,29 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma innī as’aluka-l-ʿāfiyata fi-d-dunyā wa-l-ākhirah. Allāhumma innī as’aluka-l-ʿafwa wa-l-ʿāfiyata fī dīnī wa dunyāya wa ahlī wa mālī, Allāhumma-stur ʿawrātī wa āmin rawʿātī. Allāhumma-ḥfaẓnī mim bayni yadayya wa min khalfī, wa ʿay-n yamīnī wa ʿan shimālī wa min fawqī, wa aʿūdhu bi-ʿaẓamatika an ughtāla min taḥtī.
+              Allāhumma innī as’aluka-l-ʿāfiyata fi-d-dunyā wa-l-ākhirah.
+              Allāhumma innī as’aluka-l-ʿafwa wa-l-ʿāfiyata fī dīnī wa dunyāya
+              wa ahlī wa mālī, Allāhumma-stur ʿawrātī wa āmin rawʿātī.
+              Allāhumma-ḥfaẓnī mim bayni yadayya wa min khalfī, wa ʿay-n yamīnī
+              wa ʿan shimālī wa min fawqī, wa aʿūdhu bi-ʿaẓamatika an ughtāla
+              min taḥtī.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, I ask You for well-being in this world and the next. O Allah, I ask You for forgiveness and well-being in my religion, in my worldly affairs, in my family and in my wealth. O Allah, conceal my faults and calm my fears. O Allah, guard me from in front of me and behind me, from my right, and from my left, and from above me. I seek protection in Your Greatness from being unexpectedly destroyed from beneath me.
+              O Allah, I ask You for well-being in this world and the next. O
+              Allah, I ask You for forgiveness and well-being in my religion, in
+              my worldly affairs, in my family and in my wealth. O Allah,
+              conceal my faults and calm my fears. O Allah, guard me from in
+              front of me and behind me, from my right, and from my left, and
+              from above me. I seek protection in Your Greatness from being
+              unexpectedly destroyed from beneath me.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="evl">
         <p>
           اَللّٰهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ ، فَاطِرَ السَّمٰوَاتِ
@@ -162,18 +205,27 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma ʿālima-l-ghaybi wa-sh-shahādah, fāṭir-as-samāwāti wa-l-arḍi, rabba kulli shay’iw-wa malīkah, ash-hadu al-lā ilāha illā Anta, aʿūdhu bika min sharri nafsī wa min sharri-sh-shayṭāni wa shirkihī wa an aqtarifa ʿalā nafsī sū’an aw ajurrahū ilā muslim.
+              Allāhumma ʿālima-l-ghaybi wa-sh-shahādah, fāṭir-as-samāwāti
+              wa-l-arḍi, rabba kulli shay’iw-wa malīkah, ash-hadu al-lā ilāha
+              illā Anta, aʿūdhu bika min sharri nafsī wa min sharri-sh-shayṭāni
+              wa shirkihī wa an aqtarifa ʿalā nafsī sū’an aw ajurrahū ilā
+              muslim.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, Knower of the unseen and the seen, Creator of the heavens and the earth, the Lord and Sovereign of everything; I bear witness that there is no god worthy of worship but You. I seek Your protection from the evil of my own self, from the evil of Shayṭān and from the evil of polytheism to which he calls,and from inflicting evil on myself, or bringing it upon a Muslim.
+              O Allah, Knower of the unseen and the seen, Creator of the heavens
+              and the earth, the Lord and Sovereign of everything; I bear
+              witness that there is no god worthy of worship but You. I seek
+              Your protection from the evil of my own self, from the evil of
+              Shayṭān and from the evil of polytheism to which he calls,and from
+              inflicting evil on myself, or bringing it upon a Muslim.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="entrust">
         <p>
           يَا حَيُّ يَا قَيُّوْمُ ، بِرَحْمَتِكَ أَسْتَغِيْثُ أَصْلِحْ لِيْ
@@ -182,18 +234,21 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Yā Ḥayyu yā Qayyūm, bi-raḥmatika astaghīth, aṣliḥ lī sha’nī kullah, wa lā takilnī ilā nafsī ṭarfata ʿayn.
+              Yā Ḥayyu yā Qayyūm, bi-raḥmatika astaghīth, aṣliḥ lī sha’nī
+              kullah, wa lā takilnī ilā nafsī ṭarfata ʿayn.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O The Ever Living, The Sustainer of all. ; I seek assistance through Your mercy. Rectify all of my affairs and do not entrust me to myself for the blink of an eye.
+              O The Ever Living, The Sustainer of all. ; I seek assistance
+              through Your mercy. Rectify all of my affairs and do not entrust
+              me to myself for the blink of an eye.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="thankful">
         <p>
           اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِّعْمَةٍ أَوْ بِأَحَدٍ مِّنْ
@@ -203,18 +258,21 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma mā aṣbaḥa bī min niʿmatin aw bi-aḥadim-min khalqik, fa-minka waḥdaka lā sharīka lak, fa laka-l-ḥamdu wa laka-sh-shukr.
+              Allāhumma mā aṣbaḥa bī min niʿmatin aw bi-aḥadim-min khalqik,
+              fa-minka waḥdaka lā sharīka lak, fa laka-l-ḥamdu wa laka-sh-shukr.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, all the favours that I or anyone from Your creation has received in the morning, are from You Alone. You have no partner. To You Alone belong all praise and all thanks.
+              O Allah, all the favours that I or anyone from Your creation has
+              received in the morning, are from You Alone. You have no partner.
+              To You Alone belong all praise and all thanks.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="tawhid">
         <p>
           أَصْبَحْنَا عَلَىٰ فِطْرَةِ الْإِسْلَامِ ، وَعَلَىٰ كَلِمَةِ
@@ -225,18 +283,25 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Aṣbaḥnā ʿalā fiṭrati-l-islām. wa ʿalā kalimati-l-ikhlāṣ, wa ʿalā dīni Nabiyyinā Muḥammadin ṣallallāhu ʿalayhi wa sallam, wa ʿalā millati abīnā Ibrāhīma ḥanīfam-muslima, wa mā kāna min-l-mushrikīn.
+              Aṣbaḥnā ʿalā fiṭrati-l-islām. wa ʿalā kalimati-l-ikhlāṣ, wa ʿalā
+              dīni Nabiyyinā Muḥammadin ṣallallāhu ʿalayhi wa sallam, wa ʿalā
+              millati abīnā Ibrāhīma ḥanīfam-muslima, wa mā kāna
+              min-l-mushrikīn.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            We have entered the morning upon the natural religion of Islam, the statement of pure faith (i.e. Shahādah), the religion of our Prophet Muhammad ﷺ and upon the way of our father Ibrāhīm, who turned away from all that is false, having surrendered to Allah, and he was not of the polytheists.
+              We have entered the morning upon the natural religion of Islam,
+              the statement of pure faith (i.e. Shahādah), the religion of our
+              Prophet Muhammad ﷺ and upon the way of our father Ibrāhīm, who
+              turned away from all that is false, having surrendered to Allah,
+              and he was not of the polytheists.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="praise">
         <p>
           أَصْبَحْتُ أُثْنِيْ عَلَيْكَ حَمْدًا ، وَأَشْهَدُ أَنْ لَّا إِلٰهَ
@@ -245,18 +310,19 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Aṣbaḥtu uthnī ʿalayka ḥamdā, wa ash-hadu al-lā ilāha illāl- Allāh.
+              Aṣbaḥtu uthnī ʿalayka ḥamdā, wa ash-hadu al-lā ilāha illāl- Allāh.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            I have entered the morning praising You, and I bear witness that there is no god worthy of worship but Allah.
+              I have entered the morning praising You, and I bear witness that
+              there is no god worthy of worship but Allah.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="good">
         <p>
           أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ ، لَا
@@ -270,18 +336,34 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāh, wa-l-ḥamdu li-llāh, lā ilāha illa-llāhu waḥdahū lā sharīka lah, lahu-l-mulku wa lahu-l-ḥamd, wa huwa ʿalā kulli shay’in Qadīr, Rabbi as’aluka khayra mā fī hādha-l-yawmi wa khayra mā baʿdah, wa aʿūdhu bika min sharri mā fī hādha-l-yawmi wa sharri mā baʿdah. Rabbi aʿūdhu bika mina-l-kasali wa sū’i-l-kibar, Rabbi aʿūdhu bika min ʿadhābin fi-n-nāri wa ʿadhābin fi-l-qabr.
+              Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāh, wa-l-ḥamdu li-llāh, lā ilāha
+              illa-llāhu waḥdahū lā sharīka lah, lahu-l-mulku wa lahu-l-ḥamd, wa
+              huwa ʿalā kulli shay’in Qadīr, Rabbi as’aluka khayra mā fī
+              hādha-l-yawmi wa khayra mā baʿdah, wa aʿūdhu bika min sharri mā fī
+              hādha-l-yawmi wa sharri mā baʿdah. Rabbi aʿūdhu bika mina-l-kasali
+              wa sū’i-l-kibar, Rabbi aʿūdhu bika min ʿadhābin fi-n-nāri wa
+              ʿadhābin fi-l-qabr.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            We have entered the morning and at this very time the whole kingdom belongs to Allah. All praise is due to Allah. There is no god worthy of worship except Allah, the One; He has no partner with Him. The entire kingdom belongs solely to Him, to Him is all praise due, and He is All-Powerful over everything. My Lord, I ask You for the good that is in this day and the good that follows it, and I seek Your protection from the evil that is in this day and from the evil that follows it. My Lord, I seek Your protection from laziness and the misery of old age. My Lord, I seek Your protection from the torment of the Hell-fire and the punishment of the grave.
+              We have entered the morning and at this very time the whole
+              kingdom belongs to Allah. All praise is due to Allah. There is no
+              god worthy of worship except Allah, the One; He has no partner
+              with Him. The entire kingdom belongs solely to Him, to Him is all
+              praise due, and He is All-Powerful over everything. My Lord, I ask
+              You for the good that is in this day and the good that follows it,
+              and I seek Your protection from the evil that is in this day and
+              from the evil that follows it. My Lord, I seek Your protection
+              from laziness and the misery of old age. My Lord, I seek Your
+              protection from the torment of the Hell-fire and the punishment of
+              the grave.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="bless">
         <p>
           أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ ،
@@ -292,18 +374,25 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāhi Rabbi-l-ʿālamīn, Allāhumma innī as’aluka khayra hādha-l-yawm, fatḥahū wa naṣrahū wa nūrahū wa barakatahū wa hudāh, wa aʿūdhu bika min sharri mā fīhi wa sharri mā baʿdah.
+              Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāhi Rabbi-l-ʿālamīn, Allāhumma innī
+              as’aluka khayra hādha-l-yawm, fatḥahū wa naṣrahū wa nūrahū wa
+              barakatahū wa hudāh, wa aʿūdhu bika min sharri mā fīhi wa sharri
+              mā baʿdah.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            We have entered the morning and at this very time the whole kingdom belongs to Allah, Lord of the Worlds. O Allah, I ask You for the goodness of this day: its victory, its help, its light, and its blessings and guidance. I seek Your protection from the evil that is in it and from the evil that follows it.
+              We have entered the morning and at this very time the whole
+              kingdom belongs to Allah, Lord of the Worlds. O Allah, I ask You
+              for the goodness of this day: its victory, its help, its light,
+              and its blessings and guidance. I seek Your protection from the
+              evil that is in it and from the evil that follows it.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="freed">
         <p>
           اَللّٰهُمَّ إِنِّيْ أَصْبَحْتُ أُشْهِدُكَ ، وَأُشْهِدُ حَمَلَةَ
@@ -314,18 +403,25 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma innī aṣbaḥtu ush-hiduk, wa ush-hidu ḥamlata ʿarshik, wa malā’ikatika wa jamīʿa khalqik, an-naka Anta-llāhu lā ilāha illā Anta waḥdak, lā sharīka lak, wa anna Muḥammadan ʿabduka wa rasūluk.
+              Allāhumma innī aṣbaḥtu ush-hiduk, wa ush-hidu ḥamlata ʿarshik, wa
+              malā’ikatika wa jamīʿa khalqik, an-naka Anta-llāhu lā ilāha illā
+              Anta waḥdak, lā sharīka lak, wa anna Muḥammadan ʿabduka wa
+              rasūluk.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, I have entered the morning, and I call upon You, the bearers of Your Throne, Your angels and all creation, to bear witness that surely You are Allah. There is no god worthy of worship except You Alone. You have no partners, and that Muḥammad ﷺ is Your slave and Your Messenger.
+              O Allah, I have entered the morning, and I call upon You, the
+              bearers of Your Throne, Your angels and all creation, to bear
+              witness that surely You are Allah. There is no god worthy of
+              worship except You Alone. You have no partners, and that Muḥammad
+              ﷺ is Your slave and Your Messenger.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="morning">
         <p>
           اَللّٰهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ
@@ -334,18 +430,21 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma bika aṣbaḥnā wa bika amsaynā wa bika naḥyā wa bika namūtu wa ilayka-n-nushūr.
+              Allāhumma bika aṣbaḥnā wa bika amsaynā wa bika naḥyā wa bika
+              namūtu wa ilayka-n-nushūr.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, by You we have entered the morning and by You we enter upon the evening. By You, we live and we die, and to You is the resurrection.
+              O Allah, by You we have entered the morning and by You we enter
+              upon the evening. By You, we live and we die, and to You is the
+              resurrection.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="health">
         <p>
           اَللّٰهُمَّ عَافِنِيْ فِيْ بَدَنِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ
@@ -356,18 +455,26 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā Ant, Allāhumma innī aʿūdhu bika mina-l-kufri wa-l-faqr, wa aʿūdhu bika min ʿadhābi-l-qabr, lā ilāha illā Ant.
+              Allāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma
+              ʿāfinī fī baṣarī, lā ilāha illā Ant, Allāhumma innī aʿūdhu bika
+              mina-l-kufri wa-l-faqr, wa aʿūdhu bika min ʿadhābi-l-qabr, lā
+              ilāha illā Ant.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, grant me well-being in my body. O Allah, grant me well-being in my hearing. O Allah, grant me well-being in my sight. There is no god worthy of worship except You. O Allah, I seek Your protection from disbelief and poverty and I seek Your protection from the punishment of the grave. There is no god worthy of worship except You.
+              O Allah, grant me well-being in my body. O Allah, grant me
+              well-being in my hearing. O Allah, grant me well-being in my
+              sight. There is no god worthy of worship except You. O Allah, I
+              seek Your protection from disbelief and poverty and I seek Your
+              protection from the punishment of the grave. There is no god
+              worthy of worship except You.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="suffice">
         <p>
           حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ ، عَلَيْهِ تَوَكَّلْتُ ،
@@ -376,18 +483,21 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa Rabbu-l-ʿArshi-l-ʿaẓīm.
+              Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa
+              Rabbu-l-ʿArshi-l-ʿaẓīm.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            Allah is sufficient for me. There is no god worthy of worship except Him. I have placed my trust in Him only and He is the Lord of the Magnificent Throne.
+              Allah is sufficient for me. There is no god worthy of worship
+              except Him. I have placed my trust in Him only and He is the Lord
+              of the Magnificent Throne.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="admit">
         <p>
           رَضِيْتُ بِاللّٰهِ رَبًّا ، وَبِالْإِسْلَامِ دِيْنًا ، وَبِمُحَمَّدٍ
@@ -396,18 +506,20 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Raḍītu bi-llāhi Rabbā, wa bi-l-islāmi dīnā, wa bi Muḥammadin-Nabiyyā.
+              Raḍītu bi-llāhi Rabbā, wa bi-l-islāmi dīnā, wa bi
+              Muḥammadin-Nabiyyā.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            I am pleased with Allah as my Lord, with Islām as my religion and with Muḥammad ﷺ as my Prophet.
+              I am pleased with Allah as my Lord, with Islām as my religion and
+              with Muḥammad ﷺ as my Prophet.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="harm">
         <p>
           بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ
@@ -416,35 +528,35 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Bismi-llāhi-lladhī lā yaḍurru maʿasmihi shay’un fi-l-arḍi wa lā fi-s-samā’, wa Huwa-s-Samīʿu-l-ʿAlīm.
+              Bismi-llāhi-lladhī lā yaḍurru maʿasmihi shay’un fi-l-arḍi wa lā
+              fi-s-samā’, wa Huwa-s-Samīʿu-l-ʿAlīm.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            In the Name of Allah, with whose Name nothing can harm in the earth nor in the sky. He is The All-Hearing and All-Knowing.
+              In the Name of Allah, with whose Name nothing can harm in the
+              earth nor in the sky. He is The All-Hearing and All-Knowing.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="forgiven">
         <p>سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ</p>
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
-            <p>
-            Subḥāna-llāhi wa bi ḥamdih.
-            </p>
+            <p>Subḥāna-llāhi wa bi ḥamdih.</p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            Allah is free from imperfection, and all praise is due to Him.
+              Allah is free from imperfection, and all praise is due to Him.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="reward">
         <p>
           لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ
@@ -453,18 +565,21 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Lā ilāha illā-Allāh, waḥdahū lā sharīka lah, lahu-l-mulk, wa lahu-l-ḥamd, wa Huwa ʿalā kulli shay’in Qadīr.
+              Lā ilāha illā-Allāh, waḥdahū lā sharīka lah, lahu-l-mulk, wa
+              lahu-l-ḥamd, wa Huwa ʿalā kulli shay’in Qadīr.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            There is no god worthy of worship except Allah. He is Alone and He has no partner whatsoever. To Him Alone belong all sovereignty and all praise. He is over all things All-Powerful.
+              There is no god worthy of worship except Allah. He is Alone and He
+              has no partner whatsoever. To Him Alone belong all sovereignty and
+              all praise. He is over all things All-Powerful.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="ttt">
         <p>سُبْحَانَ اللّٰهِ</p>
         <p>اَلْحَمْدُ لِلّٰهِ</p>
@@ -472,19 +587,18 @@ const MorningAthkar = () => {
         <p>100x</p>
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
-            <p>
-            Subḥāna-llāh, Alḥamdu li-llāh, Allāhu akbar.
-            </p>
+            <p>Subḥāna-llāh, Alḥamdu li-llāh, Allāhu akbar.</p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            Allah is free from imperfection. All praise be to Allah. Allah is the Greatest.
+              Allah is free from imperfection. All praise be to Allah. Allah is
+              the Greatest.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="intercession">
         <p>
           اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَّعَلَىٰ اٰلِ مُحَمَّدٍ ، كَمَا
@@ -497,36 +611,40 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Allāhumma ṣalli ʿalā Muḥammad wa ʿalā āli Muḥammad, kamā ṣallayta ʿalā Ibrāhīma wa ʿalā āli Ibrāhīm, innaka Ḥamīdu-m-Majīd, Allāhumma bārik ʿalā Muḥammad, wa ʿalā āli Muḥammad, kamā bārakta ʿalā Ibrāhīma wa ʿalā āli Ibrāhīm, innaka Ḥamīdu-m-Majīd.
+              Allāhumma ṣalli ʿalā Muḥammad wa ʿalā āli Muḥammad, kamā ṣallayta
+              ʿalā Ibrāhīma wa ʿalā āli Ibrāhīm, innaka Ḥamīdu-m-Majīd,
+              Allāhumma bārik ʿalā Muḥammad, wa ʿalā āli Muḥammad, kamā bārakta
+              ʿalā Ibrāhīma wa ʿalā āli Ibrāhīm, innaka Ḥamīdu-m-Majīd.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            O Allah, honour and have mercy upon Muhammad and the family of Muhammad as You have honoured and had mercy upon Ibrāhīm and the family of Ibrāhīm. Indeed, You are the Most Praiseworthy, the Most Glorious. O Allah, bless Muhammad and the family of Muhammad as You have blessed Ibrāhīm and the family of Ibrāhīm. Indeed, You are the Most Praiseworthy, the Most Glorious.
+              O Allah, honour and have mercy upon Muhammad and the family of
+              Muhammad as You have honoured and had mercy upon Ibrāhīm and the
+              family of Ibrāhīm. Indeed, You are the Most Praiseworthy, the Most
+              Glorious. O Allah, bless Muhammad and the family of Muhammad as
+              You have blessed Ibrāhīm and the family of Ibrāhīm. Indeed, You
+              are the Most Praiseworthy, the Most Glorious.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="repent">
         <p>أَسْتَغْفِرُ اللّٰهَ وَأَتُوْبُ إِلَيْهِ</p>
         <p>100x</p>
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
-            <p>
-            Astaghfiru-l-llāha wa atūbu ilayh.
-            </p>
+            <p>Astaghfiru-l-llāha wa atūbu ilayh.</p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
-            <p>
-            I seek Allah’s forgiveness and turn to Him in repentance.
-            </p>
+            <p>I seek Allah’s forgiveness and turn to Him in repentance.</p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
       <div className="outweigh">
         <p>
           سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ ،
@@ -536,18 +654,22 @@ const MorningAthkar = () => {
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
             <p>
-            Subḥāna-llāhi wa bi ḥamdih, ʿadada khalqih, wa riḍā nafsih, wa zinata ʿarshih, wa midāda kalimātih.
+              Subḥāna-llāhi wa bi ḥamdih, ʿadada khalqih, wa riḍā nafsih, wa
+              zinata ʿarshih, wa midāda kalimātih.
             </p>
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
             <p>
-            Allah is free from imperfection and all praise is due to Him, (in ways) as numerous as all He has created, (as vast) as His pleasure, (as limitless) as the weight of His Throne, and (as endless) as the ink of His words.
+              Allah is free from imperfection and all praise is due to Him, (in
+              ways) as numerous as all He has created, (as vast) as His
+              pleasure, (as limitless) as the weight of His Throne, and (as
+              endless) as the ink of His words.
             </p>
           </InfoCollapse>
         </div>
       </div>
-<hr />
+      <hr />
     </>
   );
 };

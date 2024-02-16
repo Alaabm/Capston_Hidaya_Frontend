@@ -3,16 +3,17 @@
 //useRef to keep a refrence of inputs the user is filling out
 import { useState, useEffect, useRef } from 'react'
 import { Routes, Route } from "react-router-dom";
-import Gems from "./pages/Gems";
-import Home from "./pages/Home";
+import './App.css'
+import Contact from './pages/Contact';
 import Dhikr from "./pages/Dhikr";
 import Duas from "./pages/Duas";
-import NavBar from './components/NavBar';
-import Contact from './pages/Contact';
-import MorningAthkar from './pages/MorningAthkar';
+import EveningAthkar from './pages/EveningAthkar';
 import Footer from './components/Footer';
+import Gems from "./pages/Gems";
+import Home from "./pages/Home";
+import MorningAthkar from './pages/MorningAthkar';
+import NavBar from './components/NavBar';
 
-import './App.css'
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
           <Route path="/duas" element={<Duas/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/morningAthkar" element={<MorningAthkar/>}/>
+          <Route path="/eveningAthkar" element={<EveningAthkar/>}/>
+
         </Routes>
       </div>
       <Footer/>
