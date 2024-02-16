@@ -4,22 +4,24 @@ import "../App.jsx";
 
 const Gems = () => {
   const [gems, setGems] = useState([]);
-  const [deleteToggle, setDeleteToggle] = useState(false);
   const usernameRef = useRef("string");
   const passwordRef = useRef(null);
   const topicRef = useRef(null);
   const gemRef = useRef(null);
 
+  const [deleteToggle, setDeleteToggle] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
   const [password, setPassword] = useState("");
   const handleDeleteGem = (id, password) => {
     console.log("password", password, "id", id);
   };
+//http://localhost:3000/gems
+const BASE_URL = "https://hidaya-backend.onrender.com"
 
   useEffect(() => {
     const getGems = async () => {
       try {
-        const response = await fetch("http://localhost:3000/gems");
+        const response = await fetch(`${BASE_URL}/gems`);
         const data = await response.json();
         setGems(data);
         console.log(data);
@@ -40,7 +42,7 @@ const Gems = () => {
         gemRef: gemRef.current.value,
       };
 
-      const response = await fetch(`http://localhost:8080/gems`, {
+      const response = await fetch(`${BASE_URL}/gems`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -58,17 +60,17 @@ const Gems = () => {
     <>
       <h1>GEMS</h1>
       <form style={{ textAlign: "center" }} onSubmit={handleSubmit}>
-        <input type="text" ref={usernameRef} placeholder="username" />
+        <input style={{ textAlign: "center" }} type="text" ref={usernameRef} placeholder="username" />
         <br />
-        <input type="password" ref={passwordRef} placeholder="password" />
+        <input style={{ textAlign: "center" }} type="password" ref={passwordRef} placeholder="password" />
         <br />
-        <p style={{textAlign:"center"}}>Topic</p>
+        <p style={{textAlign:"center", marginBottom:"0px"}}>Topic</p>
         <input type="text" ref={topicRef} />
         <br />
-        <p style={{textAlign:"center"}} >Gem</p>
-        <input type="text" ref={gemRef} />
+        <p style={{textAlign:"center", marginBottom:"0px"}} >Gem</p>
+        <input  style={{height:"20%"}} type="text" ref={gemRef} />
         <br />
-        <input type="submit" value="Create Gem" />
+        <input style={{marginTop:"30px", }} type="submit" value="Create Gem" />
       </form>
 
       <ul>
@@ -100,14 +102,17 @@ const Gems = () => {
                         }}
                         placeholder="type password"
                       />
+                      <br />
+                      
                       <button
                         onClick={(evt) => {
                           evt.preventDefault();
                           handleDeleteGem(g._id, password);
                         }}
                       >
-                        Delete
+                        Confirm Delete
                       </button>
+                      <br />
                       <button
                         onClick={() => {
                           setIsDeleting(!isDeleting);
@@ -138,4 +143,6 @@ const Gems = () => {
 };
 
 export default Gems;
+
+//https://render.com for link
 
