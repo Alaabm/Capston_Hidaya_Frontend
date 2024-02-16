@@ -31,7 +31,7 @@ li, a, button {
 }
 
 #navBar li a {
-    transition: all 0.3s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 
 #navBar li a:hover{
@@ -58,7 +58,7 @@ button:hover{
     justify-content: space-between;
     background: black;  
     padding: 13px 475px;
-    /* box-shadow: 0 5px 15px rgba(0,0,0, 0.06); */
+    box-shadow: 0 5px 15px rgba(215, 66, 131, 0.06);
   } 
   
 
@@ -68,14 +68,26 @@ button:hover{
 }
   #navbar li a:hover::after,
   #navbar li a.active::after{
-      content: "";
-      width: 30%;
+      /* content: ""; */
+      /* width: 30%; */
       height:2px;
       background-color: aquamarine;
       position: absolute;
-      bottom: -4px;
-      left: 20px;
+      /* bottom: -4px; */
+      /* left: 20px; */
   }
 
 
+  .logo {
+    /* height: 6em; */
+    /* padding: 0.8em; */
+    /* will-change: filter; */
+    /* transition: filter 300ms; */
+  }
   
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #e8bfc9aa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }

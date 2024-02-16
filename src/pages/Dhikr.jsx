@@ -6,7 +6,7 @@ const Dhikr = () => {
     <>
      <div className="dhikrCounter">
     <p>Dhikr</p>
-    <div style={{border:"2px solid white" , padding:"10px"}} >
+    <div style={{border:"2px solid white" , padding:"45px"}} >
         <h1>أستغفر الله</h1>
      <Counter/>
     </div>

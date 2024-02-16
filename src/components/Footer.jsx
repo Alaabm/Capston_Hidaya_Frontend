@@ -35,8 +35,7 @@ const Footer = () => {
                 fillOpacity="0.3"
                 ></path>{" "}
             </svg>
-                </a>
-                    
+                </a>        
     </footer>
     
     </>
