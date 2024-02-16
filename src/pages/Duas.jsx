@@ -1,19 +1,31 @@
-import React from 'react'
+import React from "react";
+import NavBar from "../components/NavBar";
+import MorningAthkar from "./MorningAthkar";
+import { Routes, Route } from "react-router-dom";
 
 const Duas = () => {
   return (
     <>
-    <div>Duas</div>
-    <ul>
-        <li> <p>Duas</p>
-            <ul>
-                <li><a href="https://www.google.com/">Google</a></li>
-            </ul>
-        </li>
-    </ul>
+      <div>
+        <button>
+          <a className="morningAthkar" href="/morningAthkar">
+            Morning Athkar <br />
+            أذكار الصباح
+          </a>
+        </button>
+        <br />
+        <button>
+          <a className="eveningAthkar" href="/eveningAthkar">
+            Evening Athkar <br />
+            أذكار المساء
+          </a>
+        </button>
+        <br />
+        {/* <button><a className="eveningAthkar" href="/eveningAthkar">Evening Athkar</a></button> <br />
+    <button><a className="eveningAthkar" href="/eveningAthkar">Evening Athkar</a></button> <br /> */}
+      </div>
     </>
-    
-  )
-}
+  );
+};
 
-export default Duas
+export default Duas;

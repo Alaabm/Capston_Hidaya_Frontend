@@ -6,12 +6,19 @@ const Dhikr = () => {
     <>
      <div className="dhikrCounter">
     <p>Dhikr</p>
-     <h1>أستغفر الله</h1>
+    <div style={{border:"2px solid white" , padding:"10px"}} >
+        <h1>أستغفر الله</h1>
      <Counter/>
-     <h1>الحمدلله</h1>
+    </div>
+     <div style={{border:"2px solid white" , padding:"10px"}}>
+        <h1>الحمدلله</h1>
      <Counter/>
-     <h1>الله أكبر</h1>
+     </div>
+     <div style={{border:"2px solid white" , padding:"10px"}}>
+        <h1>الله أكبر</h1>
      <Counter/>
+     </div>
+     
      </div>
     </>
   )

@@ -1,6 +1,7 @@
-
 import { useState } from "react";
 // import "../styles/Dhikr.css";
+
+
 
 const Counter = () => {
     const [count, setCount] = useState(0)
@@ -32,3 +33,5 @@ const Counter = () => {
 }
 
 export default Counter
+
+//do something so counter doesnt go negative...

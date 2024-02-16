@@ -1,23 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap') */
 
-#logo{
+.logo{
     display: flex;
-}
-nav{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background: black;  
-    padding: 20px 200px;
-    box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
-}
-
-header{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* background-color: rgb(123, 58, 58); */
-    
 }
 
 li, a, button {
@@ -55,17 +38,44 @@ li, a, button {
     color: aqua;
 }
 
-button{
+/* button{
     padding: 9px 25px;
     background-color:rgba(0,136, 169, 1);
     border:none;
     border-radius: 50px;
     cursor:pointer;
     transition: all 0.3s ease 0s;;
-}
+} */
 
 button:hover{
     /* background-color:rgba(0,136, 169, 0.8); */
+  
+  }
 
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;  
+    padding: 13px 475px;
+    /* box-shadow: 0 5px 15px rgba(0,0,0, 0.06); */
+  } 
+  
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: aquamarine;
 }
+  #navbar li a:hover::after,
+  #navbar li a.active::after{
+      content: "";
+      width: 30%;
+      height:2px;
+      background-color: aquamarine;
+      position: absolute;
+      bottom: -4px;
+      left: 20px;
+  }
 
+
+  
