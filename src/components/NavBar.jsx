@@ -5,7 +5,7 @@ import "../styles/NavBar.css";
 const NavBar = () => {
     return (
         <>
-                <nav>
+            <nav>
                 <a className="logo" href="/">
             <svg
                 id="logo-39"
@@ -43,8 +43,8 @@ const NavBar = () => {
                         <li><a href="/dhikr">Dhikr</a></li>
                         <li><a href="/gems">Gems</a></li>
                     </ul>
-                    {/* <button><a className="cta" href="/contact">Contact</a></button> */}
-                    <ButtonLink route="./contact" buttonLinkText="Contact"></ButtonLink>
+                    <button><a className="cta" href="/contact">Contact</a></button>
+                    {/* <ButtonLink route="./contact" buttonLinkText="Contact"></ButtonLink> */}
 
                 </nav>
         </>

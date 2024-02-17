@@ -13,6 +13,8 @@ import Gems from "./pages/Gems";
 import Home from "./pages/Home";
 import MorningAthkar from './pages/MorningAthkar';
 import NavBar from './components/NavBar';
+import SleepDua from './pages/SleepDua';
+import WakeDua from './pages/WakeDua';
 
 
 function App() {
@@ -23,13 +25,15 @@ function App() {
       <div>  
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/gems" element={<Gems/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           <Route path="/dhikr" element={<Dhikr/>}/>
           <Route path="/duas" element={<Duas/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/morningAthkar" element={<MorningAthkar/>}/>
           <Route path="/eveningAthkar" element={<EveningAthkar/>}/>
+          <Route path="/gems" element={<Gems/>}/>
+          <Route path="/home" element={<Home />} />
+          <Route path="/morningAthkar" element={<MorningAthkar/>}/>
+          <Route path="/sleepDua" element={<SleepDua/>}/>
+          <Route path="/wakeDua" element={<WakeDua/>}/>
 
         </Routes>
       </div>

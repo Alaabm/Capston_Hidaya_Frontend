@@ -4,6 +4,7 @@ import InfoCollapse from "../components/InfoCollapse";
 const MorningAthkar = () => {
   return (
     <>
+    
       <h1>Morning remembrance</h1>
       <div className="ayat-alkursi">
         <p style={{ fontSize: "17pt" }}>

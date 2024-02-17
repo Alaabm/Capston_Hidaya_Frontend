@@ -18,6 +18,18 @@ const Duas = () => {
             buttonLinkText="Evening Athkar/أذكار المساء"
           ></ButtonLink>
         </div>
+        <div>
+          <ButtonLink
+            route="./sleepDua"
+            buttonLinkText="Dua Before Sleeping/الدعاء قبل النوم"
+          ></ButtonLink>
+        </div>
+        <div>
+          <ButtonLink
+            route="./wakeDua"
+            buttonLinkText="Dua After Waking/الدعاء قبل النوم"
+          ></ButtonLink>
+        </div>
       </div>
     </>
   );
