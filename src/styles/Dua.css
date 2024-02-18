@@ -1,5 +1,5 @@
 .dua-container{
-    display: flex;
-    flex-direction: column !important;
+    /* display: flex; */
+    /* flex-direction: column !important; */
     /* flex-direction: column-reverse; */
 }

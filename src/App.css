@@ -2,12 +2,16 @@
 
 #root {
   /* max-width: 1280px; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* padding: 2rem; */
   /* makes everything centered */
   text-align: center;
   
 }
 
+dhikr-counter{
+  border: 2px solid white;
+  padding: 10px
+}
 
 

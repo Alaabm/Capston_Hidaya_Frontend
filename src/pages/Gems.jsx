@@ -68,7 +68,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
         <input type="text" ref={topicRef} />
         <br />
         <p style={{textAlign:"center", marginBottom:"0px"}} >Gem</p>
-        <input  style={{height:"20%"}} type="text" ref={gemRef} />
+        <input  style={{width:"30%", height:"40pt"}} type="text" ref={gemRef} />
         <br />
         <input style={{marginTop:"30px", }} type="submit" value="Create Gem" />
       </form>

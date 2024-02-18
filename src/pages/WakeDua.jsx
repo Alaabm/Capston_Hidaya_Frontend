@@ -4,8 +4,8 @@ import InfoCollapse from "../components/InfoCollapse";
 const WakeDua = () => {
     return (
     <>
-        <div className="wake-dua">
         <h1>Duas After Waking Up</h1>
+        <div className="wake-dua">
         <div className="wake-one">
             <p style={{ fontSize: "17pt" }}>
                 اَلْحَمْدُ لِلّٰهِ الَّذِيْ عَافَانِيْ فِيْ جَسَدِيْ ، وَرَدَّ

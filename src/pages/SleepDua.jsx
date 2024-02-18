@@ -3,9 +3,9 @@ import InfoCollapse from "../components/InfoCollapse";
 
 const SleepDua = () => {
   return (
-    <>
-        <div className="sleep-dua">
+    <>  
         <h1>Dua Before Bed</h1>
+        <div className="sleep-dua">
         <p style={{ fontSize: "17pt" }}>
         بِاسْمِكَ رَبِّيْ وَضَعْتُ جَنْبِيْ ، وَبِكَ أَرْفَعُهُ ، إِنْ أَمْسَكْتَ نَفْسِيْ فَارْحَمْهَا ، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِيْنَ
         </p>

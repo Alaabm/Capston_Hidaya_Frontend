@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonLink from "../components/ButtonLink";
-import "../styles/Dua.css";
+// import "../styles/Dua.css";
+// import "../App.jsx";
 
 const Duas = () => {
   return (
@@ -21,15 +22,39 @@ const Duas = () => {
         <div>
           <ButtonLink
             route="./sleepDua"
-            buttonLinkText="Dua Before Sleeping/الدعاء قبل النوم"
+            buttonLinkText="Before Sleeping/الدعاء قبل النوم"
           ></ButtonLink>
         </div>
         <div>
           <ButtonLink
             route="./wakeDua"
-            buttonLinkText="Dua After Waking/الدعاء قبل النوم"
+            buttonLinkText="After Waking Up /الدعاء بعد الاستيقاظ"
           ></ButtonLink>
         </div>
+        <div>
+          <ButtonLink
+            route="./istikharaDua"
+            buttonLinkText="Istikhara:The Prayer of Seeking Guidance/"
+          ></ButtonLink>
+        </div>
+          <div>
+          <ButtonLink
+            route="./calamityDua"
+            buttonLinkText="When Afflicted by Calamity"
+          ></ButtonLink>
+          </div>
+          <div>
+          <ButtonLink
+            route="./successDua"
+            buttonLinkText="Dua for Success"
+          ></ButtonLink>
+          </div>
+          <div>
+          <ButtonLink
+            route="./anxietyDua"
+            buttonLinkText="Anxiety and Worry"
+          ></ButtonLink>
+          </div>
       </div>
     </>
   );
