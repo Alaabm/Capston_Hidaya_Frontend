@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import "../App.jsx";
+// import "../App.jsx";
+import "../styles/Gems.css";
 
 const Gems = () => {
   const [gems, setGems] = useState([]);
@@ -58,42 +59,64 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
   };
   return (
     <>
+    <div className="root">
+
       <h1>GEMS</h1>
-      <form style={{ textAlign: "center" }} onSubmit={handleSubmit}>
-        <input style={{ textAlign: "center" }} type="text" ref={usernameRef} placeholder="username" />
-        <br />
-        <input style={{ textAlign: "center" }} type="password" ref={passwordRef} placeholder="password" />
-        <br />
-        <p style={{textAlign:"center", marginBottom:"0px"}}>Topic</p>
-        <input type="text" ref={topicRef} />
-        <br />
-        <p style={{textAlign:"center", marginBottom:"0px"}} >Gem</p>
-        <input  style={{width:"30%", height:"40pt"}} type="text" ref={gemRef} />
-        <br />
-        <input style={{marginTop:"30px", }} type="submit" value="Create Gem" />
+{/* GEM FORM */}
+{/* DIV FOR USERNAME AND PASSWORD */}
+      <form className="gem-form"
+      onSubmit={handleSubmit}
+      >
+          <div className = "username-password-input" >
+                  <input
+                      style={{ textAlign: "center" }} type="text" ref={usernameRef} placeholder="username" 
+                  />
+                  <br />
+                  <input 
+                      style={{ textAlign: "center" }} type="password" ref={passwordRef} placeholder="password" 
+                  />
+          </div>
+          <br />
+{/* DIV FOR TOPIC AND GEM COMMENT */}
+          <div className = "topic-gem-input">
+              <p>Topic</p>
+                <input type="text" ref={topicRef} />
+                    <br />
+              <p >Gem</p>
+                <input id="gem-input-comment"  type="text" ref={gemRef} />
+            </div>
+            <br />
+{/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
+            <div className="create-gem">
+              <input id="create-gem-button"
+                type="submit" value="Create Gem" 
+              />
+            </div> 
       </form>
 
       <ul>
         {
-          //This is where we will render the gems
+// THIS IS WHERE WE WILL RENDER THE GEM
           gems.length ? (
             gems.map((g) => {
               return (
-                <div
+                <div className="gem-render"
                   key={g._id}
-                  style={{
-                    border: "2px solid white",
-                    margin: "20px",
-                    padding: "20px",
-                    height: "250px",
-                  }}
                 >
-                  <h3>{g.username}</h3>
-                  <p>{g.password}</p>
-                  <p>{g.topic}</p>
-                  <p>{g.gem}</p>
+                  <div className="gem-container-content">
+                    <div className="gem-render-username-password-div">
+                      <p>{g.username}</p>
+                      {/* <p>{g.password}</p> */}
+                    </div>
+                    <br />
+                        <div className="gem-render-topic-gem-div">
+                            <h3>{g.topic}</h3>
+                            <p>{g.gem}</p>
+                        </div>
+                  </div>
+                  <div className="gem-render-delete-div" >
                   {isDeleting ? (
-                    <form>
+                    <form className="gem-result">
                       <input
                         type="password"
                         value={password}
@@ -107,7 +130,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                       <button
                         onClick={(evt) => {
                           evt.preventDefault();
-                          handleDeleteGem(g._id, password);
+                          handleDeleteGem(g._id,    password);
                         }}
                       >
                         Confirm Delete
@@ -130,6 +153,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                       Delete
                     </button>
                   )}
+                  </div>
                 </div>
               );
             })
@@ -138,6 +162,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           )
         }
       </ul>
+      </div>
     </>
   );
 };

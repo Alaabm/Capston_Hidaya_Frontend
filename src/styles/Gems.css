@@ -1,0 +1,75 @@
+.root{
+    background-color: rgb(3, 3, 33);
+    max-width: none;
+    min-width: none;
+    padding-left: 200px;
+    padding-right:200px
+}
+
+.gem-form{
+    text-align: center;
+}
+
+.username-password-input{
+    border: solid 2px green;
+}
+
+.topic-gem-input {
+    border:2px solid rgb(148, 223, 135);
+}
+
+.topic-gem-input, p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#gem-input-comment{
+    width: 600px;
+    height: 40pt;
+    margin: 20px
+    /* style for text to stay within borders */
+}
+.create-gem{
+    border:2px solid pink;
+    padding-bottom:20px;
+}
+
+#create-gem-button{
+    margin-bottom: 20px;
+}
+
+.gem-render{
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    /* max-width: 400px; */
+    /* display:flex; */
+}
+
+.gem-container-content{
+    border: 2px solid orange;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.gem-render-username-password-div{
+    border: 2px solid purple;
+    /* background-color: rgb(125, 11, 11); */
+
+}
+
+.gem-render-username-password-div, p{
+    text-align: left;
+    padding-left:20px;
+}
+
+.gem-render-topic-gem-div{
+    border: 2px solid blue;
+}
+
+.gem-render-delete-div{
+    border: solid 2px yellow;
+}

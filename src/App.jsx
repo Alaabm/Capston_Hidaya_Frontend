@@ -3,7 +3,7 @@
 //useRef to keep a refrence of inputs the user is filling out
 import { useState, useEffect, useRef } from 'react'
 import { Routes, Route } from "react-router-dom";
-// import './App.css'
+import './App.css'
 import AnxietyDua from './pages/AnxietyDua';
 import AlhamdulilahCounter from './pages/AlhamdulilahCounter';
 import AllahuakbarCounter from './pages/AllahuakbarCounter';
