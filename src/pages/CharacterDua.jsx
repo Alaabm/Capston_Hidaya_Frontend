@@ -5,7 +5,7 @@ const CharacterDua = () => {
   return (
     <>
         
-<h1>Good Character</h1>
+<h1 style={{color:"rgb(87, 15, 255)"}}>Good Character</h1>
         <div className="card-dua">
             <div className="card-content-dua">
                 <div className="good-dua">
