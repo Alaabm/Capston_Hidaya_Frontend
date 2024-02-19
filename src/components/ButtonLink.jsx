@@ -1,11 +1,12 @@
 import React from "react";
+import "../styles/Dhikr.css";
 
 const ButtonLink = (props) => {
 
   return (
     <>
-        <div className="button-link">
-            <button >
+        <div >
+            <button className="button-link">
                 <a href={props.route}>{props.buttonLinkText}</a>
             </button>
         </div>
