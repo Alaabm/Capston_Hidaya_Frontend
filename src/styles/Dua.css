@@ -1,5 +1,17 @@
 .dua-container{
     /* display: flex; */
-    /* flex-direction: column !important; */
+    /* flex-direction:row; */
     /* flex-direction: column-reverse; */
+}
+
+.card{
+        display: table;
+        flex-direction:row;
+        border: 2px solid white;
+}
+
+.card-body{
+    /* float:left; */
+    /* width: 25%; */
+  padding: 0 10px;
 }
