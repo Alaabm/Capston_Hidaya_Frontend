@@ -6,6 +6,7 @@ import "../styles/Dhikr.css";
 const AlhamdulilahCounter = () => {
   return (
     <>
+        {/* BUTTON LINKS FOR INDIVIDUAL DHIKIR COUNTERS  */}
         <div className="button-container">
             <div className="button-link">
                 <ButtonLink
@@ -27,11 +28,15 @@ const AlhamdulilahCounter = () => {
             </div>
         </div>
     
-        <div  style={{paddingBottom:"20pt", textAlign:"center"}}>
-        <p style={{textAlign:"center", fontSize:"45pt"}}>الحمد لله  </p>
-        
-        <div style={{width:"400px", paddingLeft:"380pt"}}>
-                <Counter />
+    {/* COUNTER CONTAINER */}
+        <div className="container-dhikr">
+        <div className="dhikr-card">
+               <div className="dhikr-content">
+               <h1 > الحمد الله</h1>
+                     <div style={{paddingBottom:"20pt"}}> 
+                        <Counter />
+                        </div>
+               </div>
         </div>
         </div>
     
@@ -41,4 +46,3 @@ const AlhamdulilahCounter = () => {
 
 export default AlhamdulilahCounter
 
-// style={{fontSize:"40pt", textAlign:"center",  paddingLeft:"50pt",  paddingRight:"50pt", paddingTop:"50pt", height:"0pt", width:"970pt"}}

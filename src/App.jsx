@@ -33,23 +33,23 @@ function App() {
       <div>  
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/anxietyDua" element={<AnxietyDua/>}/>
-          <Route path="/alhamdulilahCounter" element={<AlhamdulilahCounter/>}/>
-          <Route path="/allahuakbarCounter" element={<AllahuakbarCounter/>}/>
-          <Route path="/calamityDua" element={<CalamityDua/>}/>
-          <Route path="/characterDua" element={<CharacterDua/>}/>
+          <Route path="/dua/anxietyDua" element={<AnxietyDua/>}/>
+          <Route path="/dhikr/alhamdulilahCounter" element={<AlhamdulilahCounter/>}/>
+          <Route path="/dhikr/allahuakbarCounter" element={<AllahuakbarCounter/>}/>
+          <Route path="/dua/calamityDua" element={<CalamityDua/>}/>
+          <Route path="/dua/characterDua" element={<CharacterDua/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/dhikr" element={<Dhikr/>}/>
           <Route path="/duas" element={<Duas/>}/>
-          <Route path="/eveningAthkar" element={<EveningAthkar/>}/>
+          <Route path="/dua/eveningAthkar" element={<EveningAthkar/>}/>
           <Route path="/gems" element={<Gems/>}/>
           <Route path="/home" element={<Home />} />
-          <Route path="/istikharaDua" element={<IstikharaDua/>}/>
-          <Route path="/morningAthkar" element={<MorningAthkar/>}/>
-          <Route path="/sleepDua" element={<SleepDua/>}/>
-          <Route path="/subhanallahCounter" element={<SubhanallahCounter/>}/>
-          <Route path="/successDua" element={<SuccessDua/>}/>
-          <Route path="/wakeDua" element={<WakeDua/>}/>
+          <Route path="/dua/istikharaDua" element={<IstikharaDua/>}/>
+          <Route path="/dua/morningAthkar" element={<MorningAthkar/>}/>
+          <Route path="/dua/sleepDua" element={<SleepDua/>}/>
+          <Route path="/dhikr/subhanallahCounter" element={<SubhanallahCounter/>}/>
+          <Route path="/dua/successDua" element={<SuccessDua/>}/>
+          <Route path="/dua/wakeDua" element={<WakeDua/>}/>
         </Routes>
       </div>
       <Footer/>

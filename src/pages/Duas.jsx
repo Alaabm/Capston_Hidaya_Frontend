@@ -64,7 +64,7 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Morning Athkar</h5>
               <h3>أذكار الصباح</h3>
                 <ButtonLink
-                  route="./morningAthkar"
+                  route="./dua/morningAthkar"
                   buttonLinkText="Dua"
                 ></ButtonLink>
             </div>
@@ -75,8 +75,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Evening Athkar</h5>
               <h3> أذكار المساء</h3>
               <ButtonLink
-                route="./eveningAthkar"
-                buttonLinkText="DUA"
+                route="./dua/eveningAthkar"
+                buttonLinkText="Dua"
               ></ButtonLink>
             </div>
           </div>
@@ -86,8 +86,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Before Sleeping</h5>
               <h3> الدعاء قبل النوم</h3>
                 <ButtonLink
-                  route="./sleepDua"
-                  buttonLinkText="Before Sleeping/الدعاء قبل النوم"
+                  route="./dua/sleepDua"
+                  buttonLinkText=" Dua "
                 ></ButtonLink>
             </div>
           </div>
@@ -97,8 +97,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>After Waking Up</h5>
               <h3>الدعاء بعد الاستيقاظ</h3>
               <ButtonLink
-                route="./wakeDua"
-                buttonLinkText="After Waking Up /الدعاء بعد الاستيقاظ"
+                route="./dua/wakeDua"
+                buttonLinkText=" Dua"
               ></ButtonLink>
             </div>
           </div>
@@ -108,8 +108,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Istikhara:The Prayer of Seeking Guidance</h5>
               <h3>دعاء الاستخار</h3>
               <ButtonLink
-                route="./istikharaDua"
-                buttonLinkText="Istikhara:The Prayer of Seeking Guidance/"
+                route="./dua/istikharaDua"
+                buttonLinkText="Dua"
               ></ButtonLink>
             </div>
           </div>
@@ -119,8 +119,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Anxiety and Worry</h5>
                 <h3></h3>
                 <ButtonLink
-                  route="./anxietyDua"
-                  buttonLinkText="Anxiety and Worry"
+                  route="./dua/anxietyDua"
+                  buttonLinkText="Dua"
                 ></ButtonLink>
             </div>
           </div>
@@ -130,8 +130,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Success</h5>
                 <h3></h3>
               <ButtonLink
-                route="./successDua"
-                buttonLinkText="Dua for Success"
+                route="./dua/successDua"
+                buttonLinkText="Dua"
               ></ButtonLink>
             </div>
           </div>
@@ -141,8 +141,8 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>When Afflicted by Calamity</h5>
                 <h3></h3>
                 <ButtonLink
-                    route="./calamityDua"
-                    buttonLinkText="When Afflicted by Calamity"
+                    route="./dua/calamityDua"
+                    buttonLinkText="Dua"
                 ></ButtonLink>
             </div>
           </div>
@@ -152,15 +152,11 @@ const Duas = () => {
               <h5 style={{className:"card-title"}}>Good Character</h5>
                 <h3></h3>
                 <ButtonLink
-                    route="./characterDua"
+                    route="./dua/characterDua"
                     buttonLinkText="Dua"
                 ></ButtonLink>
             </div>
           </div>
-
-          
-          
-          
       </div>
     </div>
     </>

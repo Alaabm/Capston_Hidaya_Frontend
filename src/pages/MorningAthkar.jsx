@@ -5,7 +5,7 @@ const MorningAthkar = () => {
   return (
     <>
     
-      <h1 >Morning remembrance</h1>
+      <h1 style={{color:"rgb(90, 95, 295)"}} >Morning remembrance</h1>
       <div className="card-dua">
           <div className="card-content-dua">
               <div className="ayat-alkursi">
@@ -803,9 +803,9 @@ const MorningAthkar = () => {
 
 export default MorningAthkar;
 
+// FOR STYLING
+        // <div className="card-dua">
+        //     <div className="card-content-dua">
 
-        <div className="card-dua">
-            <div className="card-content-dua">
-
-            </div>
-        </div>
+        //     </div>
+        // </div>

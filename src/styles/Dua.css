@@ -69,3 +69,37 @@
 .card-dua, p{
     text-align: center;
 }
+
+/* DHIKR COUNTER STYLING */
+
+.container-dhikr{
+    /* display: flex; */
+    /* flex-direction:row; */
+    /* flex-direction: column-reverse; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    /* padding: 40px; */
+}
+.dhikr-card{
+    display: table;
+    flex-direction:row;
+    border: 2px solid rgb(87, 15, 255);
+    background-color: #060119;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 90px;
+
+}
+
+.dhikr-content{
+    /* float:left; */
+    /* width: 25%; */
+    /* padding: 50px; */
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    padding: 20px;
+
+}
