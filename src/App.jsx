@@ -8,6 +8,7 @@ import AnxietyDua from './pages/AnxietyDua';
 import AlhamdulilahCounter from './pages/AlhamdulilahCounter';
 import AllahuakbarCounter from './pages/AllahuakbarCounter';
 import CalamityDua from './pages/CalamityDua';
+import CharacterDua from './pages/CharacterDua';
 import Contact from './pages/Contact';
 import Dhikr from "./pages/Dhikr";
 import Duas from "./pages/Duas";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/alhamdulilahCounter" element={<AlhamdulilahCounter/>}/>
           <Route path="/allahuakbarCounter" element={<AllahuakbarCounter/>}/>
           <Route path="/calamityDua" element={<CalamityDua/>}/>
+          <Route path="/characterDua" element={<CharacterDua/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/dhikr" element={<Dhikr/>}/>
           <Route path="/duas" element={<Duas/>}/>

@@ -4,7 +4,7 @@ import InfoCollapse from "../components/InfoCollapse";
 const CalamityDua = () => {
   return (
     <>
-        <h1>Dua Before Bed</h1>
+        <h1>When Afflicted by Calamity</h1>
         <div className="sleep-dua">
         <p style={{ fontSize: "17pt" }}>
         إِنَّا لِلهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي ، وَاخْلُفْ لِي خَيْرًا مِنْهَا

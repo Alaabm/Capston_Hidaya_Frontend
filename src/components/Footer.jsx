@@ -1,11 +1,11 @@
 import React from 'react'
-// import "../styles/NavBar.css";
+import "../styles/Footer.css";
 
 
 const Footer = () => {
   return (
     <>
-    <footer>
+    <footer className="footer">
     <a id="logo" href="/">
             <svg
                 id="logo-39"

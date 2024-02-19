@@ -2,6 +2,8 @@ import React from "react";
 import Counter from "../components/Counter";
 import ButtonLink from "../components/ButtonLink";
 import "../styles/Dhikr.css";
+// import "../styles/Dua.css";
+
 
 
 const Dhikr = () => {
