@@ -4,10 +4,7 @@
     padding-left: 200px;
     padding-right:200px;
     background-color:rgb(3, 3, 33);
-
     /* background: linear-gradient( #8276b6, #afc8d7); */
-
-    
 }
 
 .gem-form{
@@ -127,7 +124,7 @@
     font-family:monospace;
     font-size: 13pt;
     font-weight:900;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     letter-spacing: 1px;
     padding-top: 10px;
     /* word-spacing: 2px; */

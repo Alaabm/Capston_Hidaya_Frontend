@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 // import "../App.jsx";
 import "../styles/Gems.css";
 import { GiCutDiamond } from "react-icons/gi";
+import GemItem from '../components/GemItem'
 
 
 const Gems = () => {
@@ -13,10 +14,12 @@ const Gems = () => {
   const gemRef = useRef(null);
 
   const [deleteToggle, setDeleteToggle] = useState(false);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [password, setPassword] = useState("");
-  const handleDeleteGem = (id, password) => {
-    console.log("password", password, "id", id);
+  const handleDeleteGem = (g, password) => {
+    console.log(g.password, password, "id", g.id);
+
+    //make request to backend for delete request, make sure password=password
+
+    
   };
 
   // const textarea = document.querySelector("textarea");
@@ -88,7 +91,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                       type="text" ref={usernameRef} placeholder="username" 
                   />
                   <br />
-                  <input minlength="3" maxlength="20"
+                  <input 
                       style={{ 
                         textAlign: "center",
                         backgroundColor: "whitesmoke",
@@ -152,88 +155,8 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           gems.length ? (
             gems.map((g) => {
               return (
-                <div className="gem-render"
-                  key={g._id}
-                >
-                  <div className="gem-container-content">
-                    <div className="gem-render-username-password-div">
-                      <p 
-                        style={{
-                          color:"rgb(87, 15, 255)",
-                          textAlign:"left"
-                        }}
-                      >{g.username}</p>
-                      {/* <p>{g.password}</p> */}
-                    </div>
-                    <br />
-                        <div className="gem-render-topic-gem-div">
-                            <h3>{g.topic}</h3>
-                            <p>{g.gem}</p>
-                        </div>
-                  </div>
-                  <div className="gem-render-delete-div" >
-                  {isDeleting ? (
-                    <form className="gem-result">
-                      <div className="boxes">
-                        <input
-                        type="password"
-                        value={password}
-                        onChange={(evt) => {
-                          setPassword(evt.target.value);
-                        }}
-                        placeholder="type password"
-                      />
-                      <br />
-                      
-                      <button
-                        onClick={(evt) => {
-                          evt.preventDefault();
-                          handleDeleteGem(g._id,password);
-                        }}
-
-                        style={{
-                          backgroundColor:"lightblue",
-                          color: "black",
-                          fontWeight: "bold",
-                      }}
-                      >
-                        Confirm Delete
-                      </button>
-                      <br />
-                      <button
-                        onClick={() => {
-                          setIsDeleting(!isDeleting);
-                        }}
-
-                        style={{
-                          backgroundColor:"lightGray",
-                          color: "black",
-                          fontWeight: "bold",
-                      }}
-                      >
-                        Cancel
-                      </button>
-
-                      </div>
-                      
-                    </form>
-                  ) : (
-                    <button 
-                    style={{
-                        backgroundColor:"lightblue",
-                        color: "black",
-                        fontWeight: "bold",
-
-                    }}
-                      onClick={() => {
-                        setIsDeleting(!isDeleting);
-                      }}
-                    >
-                      Delete
-                    </button>
-                  )}
-                  </div>
-                </div>
+                <GemItem g={g} handleDeleteGem={handleDeleteGem}/>
+                
               );
             })
           ) : (
