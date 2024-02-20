@@ -11,7 +11,7 @@ video{
     /* background-color: url(images/img-home.jpg) center center/cover
     no-repeat; */
     background: linear-gradient(#afc8d7, #8276b6);
-    height: 67vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;

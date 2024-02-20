@@ -75,16 +75,20 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           <div className = "username-password-input" >
                   <input
                       style={{
-                        textAlign: "center" 
+                        textAlign: "center" ,
+                        backgroundColor: "whitesmoke",
+                        color:'black'
 
                         }} 
                       
                       type="text" ref={usernameRef} placeholder="username" 
                   />
                   <br />
-                  <input 
+                  <input minlength="3" maxlength="20"
                       style={{ 
-                        textAlign: "center"
+                        textAlign: "center",
+                        backgroundColor: "whitesmoke",
+                        color:'black'
                       }} 
                       
                       type="password" ref={passwordRef} placeholder="password" 
@@ -94,20 +98,43 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
 {/* DIV FOR TOPIC AND GEM COMMENT */}
           <div className = "topic-gem-input">
               <p style={{
-                textAlign:"center"
+                textAlign:"center",
+                color:"black",
+                fontWeight:"bold",
+                fontFamily:'monospace',
+                paddingTop: "10px",
                 }}
                 >  
                   Topic</p>
                 <input style={{
                   padding: "5px",
                   width:"150pt",
-                  margin: "10px"
+                  margin: "10px",
+                  backgroundColor: "whitesmoke",
+                  color:'black'
                 }}
                 
                 type="text" ref={topicRef} />
                     <br />
-              <p style={{textAlign:"center"}}>Gem</p>
-                <textarea id="gem-input-comment"  type="text" ref={gemRef} />
+              <p style={{
+                textAlign:"center",
+                color:"black",
+                fontWeight:"bold",
+                fontFamily:'monospace',
+                paddingTop: "10px",
+                letterSpacing:"5px",
+                
+                
+                }}>GEM</p>
+                <textarea 
+                  style={{ 
+                    backgroundColor: "whitesmoke",
+                    color:'black'
+                  }} 
+
+                
+                
+                id="gem-input-comment"  type="text" ref={gemRef} />
             </div>
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}

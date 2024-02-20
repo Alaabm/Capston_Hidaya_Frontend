@@ -8,7 +8,7 @@ const Home = () => {
     <>
      <div
      style={{
-      minHeight:"80vh",
+      minHeight:"30vh",
     }}>
 
       
