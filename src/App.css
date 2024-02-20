@@ -1,9 +1,8 @@
 
 
 #root {
-  /* max-width: 1280px; */
+  max-width:max-content;
   /* margin: 0 auto; */
-  /* padding: 2rem; */
   /* makes everything centered */
   text-align: center;
   background-color: rgb(211, 211, 235);

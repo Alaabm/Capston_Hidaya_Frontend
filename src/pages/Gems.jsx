@@ -61,7 +61,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
     <>
     <div className="root">
 
-      <h1>GEMS</h1>
+
 {/* GEM FORM */}
 {/* DIV FOR USERNAME AND PASSWORD */}
       <form className="gem-form"
@@ -79,16 +79,16 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           <br />
 {/* DIV FOR TOPIC AND GEM COMMENT */}
           <div className = "topic-gem-input">
-              <p>Topic</p>
+              <p style={{textAlign:"center"}}>Topic</p>
                 <input type="text" ref={topicRef} />
                     <br />
-              <p >Gem</p>
+              <p style={{textAlign:"center"}}>Gem</p>
                 <input id="gem-input-comment"  type="text" ref={gemRef} />
             </div>
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
             <div className="create-gem">
-              <input id="create-gem-button"
+              <input  id="create-gem-button"
                 type="submit" value="Create Gem" 
               />
             </div> 
@@ -117,7 +117,8 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                   <div className="gem-render-delete-div" >
                   {isDeleting ? (
                     <form className="gem-result">
-                      <input
+                      <div className="boxes">
+                        <input
                         type="password"
                         value={password}
                         onChange={(evt) => {
@@ -132,6 +133,12 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                           evt.preventDefault();
                           handleDeleteGem(g._id,    password);
                         }}
+
+                        style={{
+                          backgroundColor:"lightblue",
+                          color: "black",
+                          fontWeight: "bold",
+                      }}
                       >
                         Confirm Delete
                       </button>
@@ -140,12 +147,27 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                         onClick={() => {
                           setIsDeleting(!isDeleting);
                         }}
+
+                        style={{
+                          backgroundColor:"lightGray",
+                          color: "black",
+                          fontWeight: "bold",
+                      }}
                       >
                         Cancel
                       </button>
+
+                      </div>
+                      
                     </form>
                   ) : (
-                    <button
+                    <button 
+                    style={{
+                        backgroundColor:"lightblue",
+                        color: "black",
+                        fontWeight: "bold",
+
+                    }}
                       onClick={() => {
                         setIsDeleting(!isDeleting);
                       }}
