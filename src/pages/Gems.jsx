@@ -49,34 +49,6 @@ const Gems = () => {
 
 //Create a post request
 
-  //TIEGO 
-  // const DeleteGem = ({g.id }) => {
-  //   const [password, setPassword] = useState('');
-  
-  //   const handleDeleteSubmit = async (e) => {
-  //     e.preventDefault();
-  //     try {
-  //       const response = await fetch(`/gems/${g.id}`, {
-  //         method: 'DELETE',
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         body: JSON.stringify({ password }),
-  //       });
-  
-  //       if (!response.ok) {
-  //         throw new Error('Failed to delete the gem');
-  //       }
-  
-  //       const data = await response.json();
-  //       console.log(data.message); 
-  //     } catch (error) {
-  //       console.error(error.message); 
-  //     }
-  //   };
-
-
-  
 
 
 // http://localhost:3000/gems
@@ -133,6 +105,14 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
 {/* GEM FORM */}
 {/* DIV FOR USERNAME AND PASSWORD */}
       <form className="gem-form"
+
+style={{
+  minHeight:"50vh",
+  paddingTop: '50px',
+    paddingBottom: '50px',
+    margin: '20px',
+  
+}}
       onSubmit={handleSubmit}
       >
           <div className = "username-password-input" >

@@ -55,9 +55,9 @@ const Footer = () => {
               <a href="https://open.spotify.com/show/0ap3QMQixhPuhxXVT22hJO">Spotify</a>
             </li>
             {/* <li><a href="/html/about.html">About</a></li> */}
-            <li>
+            {/* <li>
               <a href="/contact">Contact</a>
-            </li>
+            </li> */}
             <li>
                 <a href="https://piousprojects.org/">Donate</a>
             </li>

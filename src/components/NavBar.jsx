@@ -43,7 +43,7 @@ const NavBar = () => {
                         <li><a href="/dhikr">Dhikr</a></li>
                         <li><a href="/gems">Gems</a></li>
                     </ul>
-                    <button><a className="cta" href="/contact">Contact</a></button>
+                    <button><a className="cta" href="/about">About Us</a></button>
                     {/* <ButtonLink route="./contact" buttonLinkText="Contact"></ButtonLink> */}
 
                 </nav>

@@ -9,7 +9,7 @@ import AlhamdulilahCounter from './pages/AlhamdulilahCounter';
 import AllahuakbarCounter from './pages/AllahuakbarCounter';
 import CalamityDua from './pages/CalamityDua';
 import CharacterDua from './pages/CharacterDua';
-import Contact from './pages/Contact';
+import About from './pages/About';
 import Dhikr from "./pages/Dhikr";
 import Duas from "./pages/Duas";
 import EveningAthkar from './pages/EveningAthkar';
@@ -38,7 +38,7 @@ function App() {
           <Route path="/dhikr/allahuakbarCounter" element={<AllahuakbarCounter/>}/>
           <Route path="/dua/calamityDua" element={<CalamityDua/>}/>
           <Route path="/dua/characterDua" element={<CharacterDua/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/about" element={<About/>}/>
           <Route path="/dhikr" element={<Dhikr/>}/>
           <Route path="/duas" element={<Duas/>}/>
           <Route path="/dua/eveningAthkar" element={<EveningAthkar/>}/>

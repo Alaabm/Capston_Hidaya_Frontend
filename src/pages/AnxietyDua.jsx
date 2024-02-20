@@ -12,7 +12,7 @@ const AnxietyDua = () => {
       minHeight:"50vh",
       paddingTop: '50px',
         paddingBottom: '50px',
-        margin: '20px'
+        margin: '20px',
       
     }}
     
