@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <>
     <footer className="footer">
-    <a id="logo" href="/">
+    <a className="logo" href="/">
                 </a>   
                 <a href="/">
-          <svg
+          <svg 
             id="logo-39"
             width="50"
             height="40"

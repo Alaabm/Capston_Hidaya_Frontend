@@ -58,20 +58,20 @@ const MorningAthkar = () => {
             <div className="card-content-dua">
             <div className="muawidat">
                 <h2>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   {" "}
                   قُلْ هُوَ اللّٰهُ أَحَدٌ ، اَللّٰهُ الصَّمَدُ ، لَمْ يَلِدْ وَلَمْ
                   يُوْلَدْ ، وَلَمْ يَكُنْ لَّهُ كُفُوًا أَحَدٌ
                 </p>
                 <h2>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   {" "}
                   قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ، مِنْ شَرِّ مَا خَلَقَ ، وَمِنْ شَرِّ
                   غَاسِقٍ إِذَا وَقَبَ ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ،
                   وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ
                 </p>
                 <h2>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   {" "}
                   قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ، مَلِكِ النَّاسِ ، إِلٰهِ النَّاسِ ،
                   مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، اَلَّذِيْ يُوَسْوِسُ فِيْ
@@ -79,7 +79,7 @@ const MorningAthkar = () => {
                 </p>
                 <div className="morning-collapse">
                   <InfoCollapse buttonText="Transliteration">
-                    <p>
+                    <p >
                       Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul Huwa-llāhu Aḥad.
                       Allāhu-ṣ-Ṣamad. Lam yalid wa lam yūlad. Wa lam yakul-lahū kufuwan
                       aḥad. Bismi-llāhi-r-Raḥmāni-r-Raḥīm. Qul aʿūdhu bi-Rabbi-l-falaq.
@@ -92,7 +92,7 @@ const MorningAthkar = () => {
                   </InfoCollapse>
                   <br />
                   <InfoCollapse buttonText="Translation">
-                    <p>
+                    <p >
                       In the name of Allah, the All-Merciful, the Very Merciful. Say, He
                       is Allah, the One, the Self-Sufficient Master, Who has not given
                       birth and was not born, and to Whom no one is equal. (112) In the
@@ -116,7 +116,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
             <div className="forgiveness">
-          <p>
+          <p style={{ fontSize: "17pt" }}>
             اَللّٰهُمَّ أَنْتَ رَبِّيْ لَا إِلٰهَ إِلَّا أَنْتَ خَلَقْتَنِيْ
             وَأَنَا عَبْدُكَ ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ
             ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ ، أَبُوْءُ لَكَ بِنِعْمَتِكَ
@@ -125,7 +125,7 @@ const MorningAthkar = () => {
           </p>
           <div className="morning-collapse">
             <InfoCollapse buttonText="Transliteration">
-              <p>
+              <p >
                 Allāhumma Anta Rabbī, lā ilāha illā Ant, khalaqtanī wa ana ʿabduk,
                 wa ana ʿalā ʿahdika wa waʿdika mā’staṭaʿt, aʿūdhu bika min sharri
                 mā ṣanaʿt, abū’u laka bi niʿmatika ʿalayya wa abū’u laka bi-dhambī
@@ -134,7 +134,7 @@ const MorningAthkar = () => {
             </InfoCollapse>
             <br />
             <InfoCollapse buttonText="Translation">
-              <p>
+              <p >
                 O Allah, You are my Lord. There is no god worthy of worship except
                 You. You have created me, and I am Your slave, and I am under Your
                 covenant and pledge (to fulfil it) to the best of my ability. I
@@ -147,7 +147,7 @@ const MorningAthkar = () => {
         </div>
 
         <div className="protection">
-          <p>
+          <p style={{ fontSize: "17pt" }}>
             اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ
             بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ
             وَالْبُخْلِ ، وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ
@@ -155,7 +155,7 @@ const MorningAthkar = () => {
           </p>
           <div className="morning-collapse">
             <InfoCollapse buttonText="Transliteration">
-              <p>
+              <p >
                 Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika
                 min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa
                 aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
@@ -163,7 +163,7 @@ const MorningAthkar = () => {
             </InfoCollapse>
             <br />
             <InfoCollapse buttonText="Translation">
-              <p>
+              <p >
                 O Allah, I seek Your protection from anxiety and grief. I seek
                 Your protection from inability and laziness. I seek Your
                 protection from cowardice and miserliness, and I seek Your
@@ -175,7 +175,7 @@ const MorningAthkar = () => {
         </div>
 
       <div className="hereafter">
-        <p>
+        <p style={{ fontSize: "17pt" }}>
           اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا
           وَالْآخِرَةِ ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ
           فِيْ دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ ، اَللّٰهُمَّ اسْتُرْ
@@ -185,7 +185,7 @@ const MorningAthkar = () => {
         </p>
         <div className="morning-collapse">
           <InfoCollapse buttonText="Transliteration">
-            <p>
+            <p >
               Allāhumma innī as’aluka-l-ʿāfiyata fi-d-dunyā wa-l-ākhirah.
               Allāhumma innī as’aluka-l-ʿafwa wa-l-ʿāfiyata fī dīnī wa dunyāya
               wa ahlī wa mālī, Allāhumma-stur ʿawrātī wa āmin rawʿātī.
@@ -196,7 +196,7 @@ const MorningAthkar = () => {
           </InfoCollapse>
           <br />
           <InfoCollapse buttonText="Translation">
-            <p>
+            <p >
               O Allah, I ask You for well-being in this world and the next. O
               Allah, I ask You for forgiveness and well-being in my religion, in
               my worldly affairs, in my family and in my wealth. O Allah,
@@ -216,7 +216,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
             <div className="evl">
-                  <p>
+                  <p style={{ fontSize: "17pt" }}>
                     اَللّٰهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ ، فَاطِرَ السَّمٰوَاتِ
                     وَالْأَرْضِ ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ ، أَشْهَدُ أَنْ لَّا
                     إِلٰهَ إِلَّا أَنْتَ ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ ، وَمِنْ
@@ -225,7 +225,7 @@ const MorningAthkar = () => {
                   </p>
                   <div className="morning-collapse">
                     <InfoCollapse buttonText="Transliteration">
-                      <p>
+                      <p >
                         Allāhumma ʿālima-l-ghaybi wa-sh-shahādah, fāṭir-as-samāwāti
                         wa-l-arḍi, rabba kulli shay’iw-wa malīkah, ash-hadu al-lā ilāha
                         illā Anta, aʿūdhu bika min sharri nafsī wa min sharri-sh-shayṭāni
@@ -235,7 +235,7 @@ const MorningAthkar = () => {
                     </InfoCollapse>
                     <br />
                     <InfoCollapse buttonText="Translation">
-                      <p>
+                      <p >
                         O Allah, Knower of the unseen and the seen, Creator of the heavens
                         and the earth, the Lord and Sovereign of everything; I bear
                         witness that there is no god worthy of worship but You. I seek
@@ -254,20 +254,20 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
               <div className="entrust">
-                  <p>
+                  <p style={{ fontSize: "17pt" }}>
                     يَا حَيُّ يَا قَيُّوْمُ ، بِرَحْمَتِكَ أَسْتَغِيْثُ أَصْلِحْ لِيْ
                     شَأْنِيْ كُلَّهُ ، وَلَا تَكِلْنِيْ إِلَىٰ نَفْسِيْ طَرْفَةَ عَيْنٍ.
-                  </p>
+                  </p >
                   <div className="morning-collapse">
                     <InfoCollapse buttonText="Transliteration">
-                      <p>
+                      <p >
                         Yā Ḥayyu yā Qayyūm, bi-raḥmatika astaghīth, aṣliḥ lī sha’nī
                         kullah, wa lā takilnī ilā nafsī ṭarfata ʿayn.
                       </p>
                     </InfoCollapse>
                     <br />
                     <InfoCollapse buttonText="Translation">
-                      <p>
+                      <p >
                         O The Ever Living, The Sustainer of all. ; I seek assistance
                         through Your mercy. Rectify all of my affairs and do not entrust
                         me to myself for the blink of an eye.
@@ -283,21 +283,21 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                   <div className="thankful">
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِّعْمَةٍ أَوْ بِأَحَدٍ مِّنْ
                   خَلْقِكَ ، فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، فَلَكَ الْحَمْدُ
                   وَلَكَ الشُّكْرُ{" "}
                 </p>
                 <div className="morning-collapse">
                   <InfoCollapse buttonText="Transliteration">
-                    <p>
+                    <p >
                       Allāhumma mā aṣbaḥa bī min niʿmatin aw bi-aḥadim-min khalqik,
                       fa-minka waḥdaka lā sharīka lak, fa laka-l-ḥamdu wa laka-sh-shukr.
                     </p>
                   </InfoCollapse>
                   <br />
                   <InfoCollapse buttonText="Translation">
-                    <p>
+                    <p >
                       O Allah, all the favours that I or anyone from Your creation has
                       received in the morning, are from You Alone. You have no partner.
                       To You Alone belong all praise and all thanks.
@@ -312,7 +312,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
             <div className="tawhid">
-                  <p>
+                  <p style={{ fontSize: "17pt" }}>
                     أَصْبَحْنَا عَلَىٰ فِطْرَةِ الْإِسْلَامِ ، وَعَلَىٰ كَلِمَةِ
                     الْإِخْلَاصِ ، وَعَلَىٰ دِيْنِ نَبِيِّنَا مُحَمَّدٍ ، وَعَلَىٰ مِلَّةِ
                     أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُّسْلِمًا وَّمَا كَانَ مِنَ
@@ -320,7 +320,7 @@ const MorningAthkar = () => {
                   </p>
                   <div className="morning-collapse">
                     <InfoCollapse buttonText="Transliteration">
-                      <p>
+                      <p >
                         Aṣbaḥnā ʿalā fiṭrati-l-islām. wa ʿalā kalimati-l-ikhlāṣ, wa ʿalā
                         dīni Nabiyyinā Muḥammadin ṣallallāhu ʿalayhi wa sallam, wa ʿalā
                         millati abīnā Ibrāhīma ḥanīfam-muslima, wa mā kāna
@@ -329,7 +329,7 @@ const MorningAthkar = () => {
                     </InfoCollapse>
                     <br />
                     <InfoCollapse buttonText="Translation">
-                      <p>
+                      <p >
                         We have entered the morning upon the natural religion of Islam,
                         the statement of pure faith (i.e. Shahādah), the religion of our
                         Prophet Muhammad ﷺ and upon the way of our father Ibrāhīm, who
@@ -348,13 +348,13 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="praise">
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   أَصْبَحْتُ أُثْنِيْ عَلَيْكَ حَمْدًا ، وَأَشْهَدُ أَنْ لَّا إِلٰهَ
                   إِلَّا اللّٰهُ
                 </p>
                 <div className="morning-collapse">
                   <InfoCollapse buttonText="Transliteration">
-                    <p>
+                    <p >
                       Aṣbaḥtu uthnī ʿalayka ḥamdā, wa ash-hadu al-lā ilāha illāl- Allāh.
                     </p>
                   </InfoCollapse>
@@ -374,7 +374,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
             <div className="good">
-                  <p>
+                  <p style={{ fontSize: "17pt" }}>
                     أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ ، لَا
                     إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ
                     وَلَهُ الْحَمْدُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ ، رَبِّ
@@ -385,7 +385,7 @@ const MorningAthkar = () => {
                   </p>
                   <div className="morning-collapse">
                     <InfoCollapse buttonText="Transliteration">
-                      <p>
+                      <p >
                         Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāh, wa-l-ḥamdu li-llāh, lā ilāha
                         illa-llāhu waḥdahū lā sharīka lah, lahu-l-mulku wa lahu-l-ḥamd, wa
                         huwa ʿalā kulli shay’in Qadīr, Rabbi as’aluka khayra mā fī
@@ -397,7 +397,7 @@ const MorningAthkar = () => {
                     </InfoCollapse>
                     <br />
                     <InfoCollapse buttonText="Translation">
-                      <p>
+                      <p >
                         We have entered the morning and at this very time the whole
                         kingdom belongs to Allah. All praise is due to Allah. There is no
                         god worthy of worship except Allah, the One; He has no partner
@@ -420,7 +420,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                       <div className="bless">
-                  <p>
+                  <p style={{ fontSize: "17pt" }}>
                     أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ ،
                     اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ خَيْرَ هٰذَا الْيَوْمِ ، فَتْحَهُ
                     وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ ، وَأَعُوْذُ بِكَ مِنْ
@@ -428,7 +428,7 @@ const MorningAthkar = () => {
                   </p>
                   <div className="morning-collapse">
                     <InfoCollapse buttonText="Transliteration">
-                      <p>
+                      <p >
                         Aṣbaḥnā wa aṣbaḥa-l-mulku li-llāhi Rabbi-l-ʿālamīn, Allāhumma innī
                         as’aluka khayra hādha-l-yawm, fatḥahū wa naṣrahū wa nūrahū wa
                         barakatahū wa hudāh, wa aʿūdhu bika min sharri mā fīhi wa sharri
@@ -437,7 +437,7 @@ const MorningAthkar = () => {
                     </InfoCollapse>
                     <br />
                     <InfoCollapse buttonText="Translation">
-                      <p>
+                      <p >
                         We have entered the morning and at this very time the whole
                         kingdom belongs to Allah, Lord of the Worlds. O Allah, I ask You
                         for the goodness of this day: its victory, its help, its light,
@@ -454,7 +454,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="freed">
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   اَللّٰهُمَّ إِنِّيْ أَصْبَحْتُ أُشْهِدُكَ ، وَأُشْهِدُ حَمَلَةَ
                   عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيْعَ خَلْقِكَ ، أَنَّكَ أَنْتَ اللّٰهُ
                   لَا إِلٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، وَأَنَّ
@@ -462,7 +462,7 @@ const MorningAthkar = () => {
                 </p>
                 <div className="morning-collapse">
                   <InfoCollapse buttonText="Transliteration">
-                    <p>
+                    <p >
                       Allāhumma innī aṣbaḥtu ush-hiduk, wa ush-hidu ḥamlata ʿarshik, wa
                       malā’ikatika wa jamīʿa khalqik, an-naka Anta-llāhu lā ilāha illā
                       Anta waḥdak, lā sharīka lak, wa anna Muḥammadan ʿabduka wa
@@ -471,7 +471,7 @@ const MorningAthkar = () => {
                   </InfoCollapse>
                   <br />
                   <InfoCollapse buttonText="Translation">
-                    <p>
+                    <p >
                       O Allah, I have entered the morning, and I call upon You, the
                       bearers of Your Throne, Your angels and all creation, to bear
                       witness that surely You are Allah. There is no god worthy of
@@ -488,20 +488,20 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="morning">
-                        <p>
+                        <p style={{ fontSize: "17pt" }}>
                           اَللّٰهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ
                           نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ
                         </p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>
+                            <p >
                               Allāhumma bika aṣbaḥnā wa bika amsaynā wa bika naḥyā wa bika
                               namūtu wa ilayka-n-nushūr.
                             </p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>
+                            <p >
                               O Allah, by You we have entered the morning and by You we enter
                               upon the evening. By You, we live and we die, and to You is the
                               resurrection.
@@ -517,7 +517,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
               <div className="health">
-                      <p>
+                      <p style={{ fontSize: "17pt" }}>
                         اَللّٰهُمَّ عَافِنِيْ فِيْ بَدَنِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ
                         سَمْعِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ بَصَرِيْ ، لَا إِلٰهَ إِلَّا
                         أَنْتَ ، اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ،
@@ -525,7 +525,7 @@ const MorningAthkar = () => {
                       </p>
                       <div className="morning-collapse">
                         <InfoCollapse buttonText="Transliteration">
-                          <p>
+                          <p >
                             Allāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma
                             ʿāfinī fī baṣarī, lā ilāha illā Ant, Allāhumma innī aʿūdhu bika
                             mina-l-kufri wa-l-faqr, wa aʿūdhu bika min ʿadhābi-l-qabr, lā
@@ -534,7 +534,7 @@ const MorningAthkar = () => {
                         </InfoCollapse>
                         <br />
                         <InfoCollapse buttonText="Translation">
-                          <p>
+                          <p > 
                             O Allah, grant me well-being in my body. O Allah, grant me
                             well-being in my hearing. O Allah, grant me well-being in my
                             sight. There is no god worthy of worship except You. O Allah, I
@@ -553,20 +553,20 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
               <div className="suffice">
-                      <p>
+                      <p style={{ fontSize: "17pt" }}>
                         حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ ، عَلَيْهِ تَوَكَّلْتُ ،
                         وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ
                       </p>
                       <div className="morning-collapse">
                         <InfoCollapse buttonText="Transliteration">
-                          <p>
+                          <p >
                             Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa
                             Rabbu-l-ʿArshi-l-ʿaẓīm.
-                          </p>
+                          </p >
                         </InfoCollapse>
                         <br />
                         <InfoCollapse buttonText="Translation">
-                          <p>
+                          <p >
                             Allah is sufficient for me. There is no god worthy of worship
                             except Him. I have placed my trust in Him only and He is the Lord
                             of the Magnificent Throne.
@@ -582,13 +582,13 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="admit">
-                        <p>
+                        <p style={{ fontSize: "17pt" }} >
                           رَضِيْتُ بِاللّٰهِ رَبًّا ، وَبِالْإِسْلَامِ دِيْنًا ، وَبِمُحَمَّدٍ
                           نَّبِيًّا
                         </p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>
+                            <p >
                               Raḍītu bi-llāhi Rabbā, wa bi-l-islāmi dīnā, wa bi
                               Muḥammadin-Nabiyyā.
                             </p>
@@ -610,20 +610,20 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="harm">
-                        <p>
+                        <p style={{ fontSize: "17pt" }}>
                           بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ
                           وَلَا فِي السَّمَاءِ ، وَهُوَ السَّمِيْعُ الْعَلِيْمُ
                         </p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>
+                            <p >
                               Bismi-llāhi-lladhī lā yaḍurru maʿasmihi shay’un fi-l-arḍi wa lā
                               fi-s-samā’, wa Huwa-s-Samīʿu-l-ʿAlīm.
                             </p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>
+                            <p >
                               In the Name of Allah, with whose Name nothing can harm in the
                               earth nor in the sky. He is The All-Hearing and All-Knowing.
                             </p>
@@ -638,14 +638,14 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
               <div className="forgiven">
-                      <p>سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ</p>
+                      <p style={{ fontSize: "17pt" }}>سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ</p>
                       <div className="morning-collapse">
                         <InfoCollapse buttonText="Transliteration">
                           <p>Subḥāna-llāhi wa bi ḥamdih.</p>
                         </InfoCollapse>
                         <br />
                         <InfoCollapse buttonText="Translation">
-                          <p>
+                          <p >  
                             Allah is free from imperfection, and all praise is due to Him.
                           </p>
                         </InfoCollapse>
@@ -659,20 +659,20 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="reward">
-                        <p>
+                        <p style={{ fontSize: "17pt" }}>
                           لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ
                           وَلَهُ الْحَمْدُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ
                         </p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>
+                            <p >
                               Lā ilāha illā-Allāh, waḥdahū lā sharīka lah, lahu-l-mulk, wa
                               lahu-l-ḥamd, wa Huwa ʿalā kulli shay’in Qadīr.
                             </p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>
+                            <p >
                               There is no god worthy of worship except Allah. He is Alone and He
                               has no partner whatsoever. To Him Alone belong all sovereignty and
                               all praise. He is over all things All-Powerful.
@@ -688,17 +688,17 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="ttt">
-                        <p>سُبْحَانَ اللّٰهِ</p>
-                        <p>اَلْحَمْدُ لِلّٰهِ</p>
-                        <p> اَللّٰهُ أَكْبَرُ</p>
-                        <p>100x</p>
+                        <p style={{ fontSize: "17pt" }}>سُبْحَانَ اللّٰهِ</p>
+                        <p style={{ fontSize: "17pt" }}>اَلْحَمْدُ لِلّٰهِ</p>
+                        <p style={{ fontSize: "17pt" }}> اَللّٰهُ أَكْبَرُ</p>
+                        <p >100x</p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>Subḥāna-llāh, Alḥamdu li-llāh, Allāhu akbar.</p>
+                            <p >Subḥāna-llāh, Alḥamdu li-llāh, Allāhu akbar.</p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>
+                            <p >
                               Allah is free from imperfection. All praise be to Allah. Allah is
                               the Greatest.
                             </p>
@@ -713,7 +713,7 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                     <div className="intercession">
-                <p>
+                <p style={{ fontSize: "17pt" }}>
                   اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَّعَلَىٰ اٰلِ مُحَمَّدٍ ، كَمَا
                   صَلَّيْتَ عَلَىٰ إِبْرَاهِيْمَ وَعَلَىٰ اٰلِ إِبْرَاهِيْمَ ، إِنَّكَ
                   حَمِيْدٌ مَّجِيْدٌ ، اَللّٰهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَّعَلَىٰ
@@ -732,7 +732,7 @@ const MorningAthkar = () => {
                   </InfoCollapse>
                   <br />
                   <InfoCollapse buttonText="Translation">
-                    <p>
+                    <p >
                       O Allah, honour and have mercy upon Muhammad and the family of
                       Muhammad as You have honoured and had mercy upon Ibrāhīm and the
                       family of Ibrāhīm. Indeed, You are the Most Praiseworthy, the Most
@@ -751,15 +751,15 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="repent">
-                        <p>أَسْتَغْفِرُ اللّٰهَ وَأَتُوْبُ إِلَيْهِ</p>
+                        <p >أَسْتَغْفِرُ اللّٰهَ وَأَتُوْبُ إِلَيْهِ</p>
                         <p>100x</p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>Astaghfiru-l-llāha wa atūbu ilayh.</p>
+                            <p style={{ fontSize: "17pt" }}>Astaghfiru-l-llāha wa atūbu ilayh.</p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>I seek Allah’s forgiveness and turn to Him in repentance.</p>
+                            <p >I seek Allah’s forgiveness and turn to Him in repentance.</p>
                           </InfoCollapse>
                         </div>
                       </div>
@@ -771,21 +771,21 @@ const MorningAthkar = () => {
       <div className="card-dua">
             <div className="card-content-dua">
                 <div className="outweigh">
-                        <p>
+                        <p style={{ fontSize: "17pt" }}>
                           سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ ،
                           وَزِنَةَ عَرْشِهِ ، وَمِدَادَ كَلِمَاتِهِ
                         </p>
                         <p>3x</p>
                         <div className="morning-collapse">
                           <InfoCollapse buttonText="Transliteration">
-                            <p>
+                            <p >
                               Subḥāna-llāhi wa bi ḥamdih, ʿadada khalqih, wa riḍā nafsih, wa
                               zinata ʿarshih, wa midāda kalimātih.
                             </p>
                           </InfoCollapse>
                           <br />
                           <InfoCollapse buttonText="Translation">
-                            <p>
+                            <p >
                               Allah is free from imperfection and all praise is due to Him, (in
                               ways) as numerous as all He has created, (as vast) as His
                               pleasure, (as limitless) as the weight of His Throne, and (as

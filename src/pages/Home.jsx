@@ -1,4 +1,7 @@
 import React from 'react'
+import Background from '../components/Background';
+import "../styles/Home.css"
+
 
 const Home = () => {
   return (
@@ -9,7 +12,9 @@ const Home = () => {
     }}>
 
       
-      <p>Home</p>
+      <div>
+        <Background></Background>
+      </div>
       </div>
     </>
   )

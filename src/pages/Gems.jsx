@@ -74,18 +74,37 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
       >
           <div className = "username-password-input" >
                   <input
-                      style={{ textAlign: "center" }} type="text" ref={usernameRef} placeholder="username" 
+                      style={{
+                        textAlign: "center" 
+
+                        }} 
+                      
+                      type="text" ref={usernameRef} placeholder="username" 
                   />
                   <br />
                   <input 
-                      style={{ textAlign: "center" }} type="password" ref={passwordRef} placeholder="password" 
+                      style={{ 
+                        textAlign: "center"
+                      }} 
+                      
+                      type="password" ref={passwordRef} placeholder="password" 
                   />
           </div>
           <br />
 {/* DIV FOR TOPIC AND GEM COMMENT */}
           <div className = "topic-gem-input">
-              <p style={{textAlign:"center"}}>Topic</p>
-                <input type="text" ref={topicRef} />
+              <p style={{
+                textAlign:"center"
+                }}
+                >  
+                  Topic</p>
+                <input style={{
+                  padding: "5px",
+                  width:"150pt",
+                  margin: "10px"
+                }}
+                
+                type="text" ref={topicRef} />
                     <br />
               <p style={{textAlign:"center"}}>Gem</p>
                 <textarea id="gem-input-comment"  type="text" ref={gemRef} />
@@ -110,7 +129,12 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                 >
                   <div className="gem-container-content">
                     <div className="gem-render-username-password-div">
-                      <p>{g.username}</p>
+                      <p 
+                        style={{
+                          color:"rgb(87, 15, 255)",
+                          textAlign:"left"
+                        }}
+                      >{g.username}</p>
                       {/* <p>{g.password}</p> */}
                     </div>
                     <br />

@@ -114,12 +114,13 @@
     /* background-color: rgb(3, 3, 33); */
     /* background-color: whitesmoke; */
     /* border-radius:100px; */
-    color: whitesmoke;
+    border-radius: 10pt;
     font-family:monospace;
     font-size: 13pt;
     font-weight:900;
     text-transform: lowercase;
     letter-spacing: 1px;
+    padding-top: 10px;
     /* word-spacing: 2px; */
     /* background-color: rgb(125, 11, 11); */
 
@@ -146,9 +147,8 @@
     border: 2px solid blue;
     background-color: rgb(3, 3, 33);
     border-radius:15px;
-    color:whitesmoke;
+    /* color:rgb(171, 11, 11); */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
     letter-spacing: 0.5px;
     word-spacing: 2px;
 }
@@ -167,10 +167,10 @@
 .card-content-dua, p{
     margin: auto;
     text-align: center;
-    font-weight: bold;
-    word-spacing: 3px;
-    color: whitesmoke;
-   
+    word-spacing: 4px;
+    color: rgb(138, 162, 183);
+    font-size:11pt;
+    padding-bottom: 10px;
 }
 
 .card-content-dua, h2{

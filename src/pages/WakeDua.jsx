@@ -8,7 +8,7 @@ const WakeDua = () => {
     <h2> الدعاء بعد الاستيقاظ </h2>
         <div 
         style={{
-            minHeight:"50vh",
+            minHeight:"40vh",
         }}
         className="card-dua">
             <div className="card-content-dua">

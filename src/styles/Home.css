@@ -1,0 +1,22 @@
+video{
+    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    /* to ensure doesnt cover other things  */
+    z-index: -1;
+}
+
+.hero-container{
+    /* background-color: url(images/img-home.jpg) center center/cover
+    no-repeat; */
+    background: linear-gradient(#afc8d7, #8276b6);
+    height: 67vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: insert 0 0 0 1000px black ; */
+    object-fit:contain;
+    padding-top: 100px;
+}
