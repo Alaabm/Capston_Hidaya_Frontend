@@ -39,7 +39,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-bottom: 20px;
+    /* margin-bottom: 100px; */
 }
 
 .topic-gem-input, p {
@@ -49,12 +49,18 @@
     /* margin: auto; */
 }
 
-#gem-input-comment{
-    width: 600px;
-    height: 40pt;
-    margin: 20px
-    /* style for text to stay within borders */
+.topic-gem-input, textarea{
     
+}
+
+#gem-input-comment{
+    width: 100%;
+    height: 100px;
+    /* margin: 20px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .create-gem input:hover {
     /* border: 2px solid rgb(87, 15, 255);

@@ -83,7 +83,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                 <input type="text" ref={topicRef} />
                     <br />
               <p style={{textAlign:"center"}}>Gem</p>
-                <input id="gem-input-comment"  type="text" ref={gemRef} />
+                <textarea id="gem-input-comment"  type="text" ref={gemRef} />
             </div>
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
