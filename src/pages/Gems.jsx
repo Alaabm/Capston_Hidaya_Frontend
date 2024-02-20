@@ -12,21 +12,73 @@ const Gems = () => {
   const passwordRef = useRef(null);
   const topicRef = useRef(null);
   const gemRef = useRef(null);
+  // const [deleteToggle, setDeleteToggle] = useState(false);
 
-  const [deleteToggle, setDeleteToggle] = useState(false);
-  const handleDeleteGem = (g, password) => {
-    console.log(g.password, password, "id", g.id);
+//DELETE REQUEST FOR GEM COMMENT!
+//User can delete comment by inputting password that is assigned to that specific comment
+  const handleDeleteGem = async (g, password) => {
+    console.log(g.password, password, "id", g._id);
 
     //make request to backend for delete request, make sure password=password
+      
+    if(g.password.trim() === password.trim()){
 
-    
+      try {
+              const response = await fetch(`http://localhost:8080/gems/${g._id}`, {
+
+                method: 'DELETE',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+              });
+        
+              if (!response.ok) {
+                throw new Error('Failed to delete the gem');
+              }
+        
+              const data = await response.json();
+              console.log(data); 
+            } catch (error) {
+              console.error(error.message); 
+            }
+    }else{
+          console.log("password not correct")
+    }
+
   };
 
-  // const textarea = document.querySelector("textarea");
-  // textarea.addEventListener("keyup", e => {
-  //   let scHeight = e.target.scrollHeight;
-  // });
-//http://localhost:3000/gems
+
+  //TIEGO 
+  // const DeleteGem = ({g.id }) => {
+  //   const [password, setPassword] = useState('');
+  
+  //   const handleDeleteSubmit = async (e) => {
+  //     e.preventDefault();
+  //     try {
+  //       const response = await fetch(`/gems/${g.id}`, {
+  //         method: 'DELETE',
+  //         headers: {
+  //           'Content-Type': 'application/json',
+  //         },
+  //         body: JSON.stringify({ password }),
+  //       });
+  
+  //       if (!response.ok) {
+  //         throw new Error('Failed to delete the gem');
+  //       }
+  
+  //       const data = await response.json();
+  //       console.log(data.message); 
+  //     } catch (error) {
+  //       console.error(error.message); 
+  //     }
+  //   };
+
+
+  
+
+
+// http://localhost:3000/gems
 const BASE_URL = "https://hidaya-backend.onrender.com"
 
   useEffect(() => {
@@ -41,13 +93,13 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
       }
     };
     getGems();
-  }, [deleteToggle]);
+  }, []);
 
   const handleSubmit = async (evt) => {
     evt.preventDefault();
     try {
       const body = {
-        username: usernameRef.current.valueOf,
+        username: usernameRef.current.value,
         passwordRef: passwordRef.current.value,
         topicRef: topicRef.current.value,
         gemRef: gemRef.current.value,
@@ -69,7 +121,10 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
   };
   return (
     <>
-    <GiCutDiamond />
+    {/* <GiCutDiamond 
+    style={{
+    
+    }}/> */}
 
     <div className="root">
 
@@ -106,10 +161,12 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           <div className = "topic-gem-input">
               <p style={{
                 textAlign:"center",
-                color:"black",
+                color:"whitesmoke",
                 fontWeight:"bold",
                 fontFamily:'monospace',
                 paddingTop: "10px",
+                paddingRight: "25px",
+
                 }}
                 >  
                   Topic</p>
@@ -125,14 +182,19 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                     <br />
               <p style={{
                 textAlign:"center",
-                color:"black",
+                color:"whitesmoke",
                 fontWeight:"bold",
                 fontFamily:'monospace',
                 paddingTop: "10px",
+                paddingRight: "20px",
                 letterSpacing:"5px",
                 
                 
                 }}>GEM</p>
+                <GiCutDiamond 
+    style={{
+    
+    }}/>
                 <textarea 
                   style={{ 
                     backgroundColor: "whitesmoke",
@@ -156,7 +218,6 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
             gems.map((g) => {
               return (
                 <GemItem g={g} handleDeleteGem={handleDeleteGem}/>
-                
               );
             })
           ) : (
