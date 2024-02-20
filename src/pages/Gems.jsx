@@ -73,9 +73,9 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
     try {
       const body = {
         username: usernameRef.current.value,
-        passwordRef: passwordRef.current.value,
-        topicRef: topicRef.current.value,
-        gemRef: gemRef.current.value,
+        password: passwordRef.current.value,
+        topic: topicRef.current.value,
+        gem: gemRef.current.value,
       };
 
       const response = await fetch(`${BASE_URL}/gems`, {
@@ -200,6 +200,7 @@ style={{
               return (
                 //handleDeleteGem component
                 <GemItem g={g} handleDeleteGem={handleDeleteGem}/>
+
               );
             })
           ) : (
