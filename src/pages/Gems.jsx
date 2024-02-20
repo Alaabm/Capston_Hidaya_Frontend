@@ -47,6 +47,7 @@ const Gems = () => {
 
   };
 
+//Create a post request
 
   //TIEGO 
   // const DeleteGem = ({g.id }) => {
@@ -217,6 +218,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
           gems.length ? (
             gems.map((g) => {
               return (
+                //handleDeleteGem component
                 <GemItem g={g} handleDeleteGem={handleDeleteGem}/>
               );
             })

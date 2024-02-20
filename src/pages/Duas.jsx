@@ -6,7 +6,13 @@ import "../styles/Dua.css";
 const Duas = () => {
   return (
     <>
-    <div className="dua-container">
+    <div className="dua-container"
+        style={{
+          // paddingTop: '60px',
+          // paddingBottom: '60px',
+          // margin: '20px'
+        }}
+    >
         {/* <div>
           <ButtonLink
             route="./morningAthkar"

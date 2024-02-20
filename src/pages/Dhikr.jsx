@@ -12,7 +12,14 @@ const Dhikr = () => {
 return (
     <>
 
-      <div className="button-container">
+      <div className="button-container"
+      
+      style={{
+            // paddingTop: '5px',
+            // paddingBottom: '17px',
+            // margin: '100px'
+          }}
+          >
          <div className="button-link">
                <ButtonLink
                route="./dhikr/alhamdulilahCounter"
