@@ -172,10 +172,7 @@ style={{
                 
                 
                 }}>GEM</p>
-                <GiCutDiamond 
-    style={{
-    
-    }}/>
+                <GiCutDiamond/>
                 <textarea 
                   style={{ 
                     backgroundColor: "whitesmoke",

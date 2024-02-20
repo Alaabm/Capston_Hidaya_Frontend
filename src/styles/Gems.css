@@ -12,13 +12,13 @@
 }
 
 .username-password-input{
-    /* display: table; */
-    /* flex-direction:row; */
-    /* padding-inline-end: 20px; */
-    /* padding-inline-start: 20px; */
-    /* padding-block: 20px; */
+    display: table;
+    flex-direction:row;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    padding-block: 20px;
     /* display:flex; */
-    /* align-content: center; */
+    /* align-items: center; */
     /* text-align: center; */
     /* justify-content: space-between; */
     /* padding-left: 250px; */
@@ -36,18 +36,19 @@
 .topic-gem-input {
     /* display: table; */
     /* flex-direction:row; */
-    border: 2px solid rgb(87, 15, 255);
+    /* border: 2px solid rgb(87, 15, 255); */
     background-color: #060119;
     /* background: linear-gradient( #8276b6, #afc8d7); */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     /* margin-bottom: 100px; */
+    /* text-align: center; */
 }
 
 .topic-gem-input, p {
     font-size: 15pt;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 5px;
     margin: auto;
 }
@@ -70,20 +71,22 @@
     padding-bottom: 15px ;
     
 }
-.create-gem input:hover {
-    border: 2px solid rgb(87, 15, 255);
-    background-color: #060119;
-    border-radius: 10px;
+.create-gem input:hover  {
+    /* border: 2px solid rgb(87, 15, 255); */
+    /* background-color: #060119;
+    /* border-radius: 10px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    color: aquamarine;
-    box-sizing: border-box;
-
+    overflow: hidden; 
+    /* color: rgb(163, 192, 201); */
+    /* background-color: #092021; */
+    background-color: #1e0217;
+    /* box-sizing: border-box; */
 }
 
 #create-gem-button{
-    border: 2px solid rgb(87, 15, 255);
-    background-color: #092021;
+    border: 2px solid #3e7f81;;
+    background-color: #011f20;
+    /* background-color: #092021; */
     font-weight: 800;
     border-radius:10px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -93,7 +96,7 @@
 
 
 .gem-render{
-    border: 2px solid rgb(87, 15, 255);
+    /* border: 2px solid rgb(87, 15, 255); */
     border-radius:10px;
     margin-top: 20px;
     margin-left: 100px;
@@ -150,9 +153,9 @@
     padding-left:20px;
 }
 .gem-render-topic-gem-div{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: rgb(3, 3, 33);
-    border-radius:15px;
+    /* border-radius:10px; */
     /* color:rgb(171, 11, 11); */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.5px;
