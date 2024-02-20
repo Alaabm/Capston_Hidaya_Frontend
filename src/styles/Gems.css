@@ -106,8 +106,8 @@
     /* display:flex; */
     /* background-color: rgb(3, 3, 33); */
     /* background-color: rgb(143, 162, 203); */
-    background: linear-gradient( #8276b6, #afc8d7);
-
+    /* background: linear-gradient( #8276b6, #afc8d7); */
+    background: linear-gradient( #afc8d7, #8276b6);
 
 }
 

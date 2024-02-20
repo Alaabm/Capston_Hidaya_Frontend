@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
     <footer className="footer">
-    <a className="logo" href="/">
+    <a className="logo-footer" href="/">
                 </a>   
                 <a href="/">
           <svg 

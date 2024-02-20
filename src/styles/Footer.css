@@ -3,11 +3,12 @@
     padding-top: 30px;
     padding-bottom: 30px;
     /* padding-right: 20px; */
-    padding-right: 150px;
+    padding-right: 140px;
     padding-left: 650px;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
+    /* position: sticky; */
 }
 
 .logo:hover {
@@ -48,6 +49,11 @@
     left: 20px;
 }
 
-.logo:hover {
+.logo-footer:hover {
     filter: drop-shadow(0 0 2em #ff0ccaaa);
+
   }
+
+.logo-footer{
+    padding-top: 10px;
+}

@@ -2,6 +2,8 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 // import "../App.jsx";
 import "../styles/Gems.css";
+import { GiCutDiamond } from "react-icons/gi";
+
 
 const Gems = () => {
   const [gems, setGems] = useState([]);
@@ -64,6 +66,8 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
   };
   return (
     <>
+    <GiCutDiamond />
+
     <div className="root">
 
 
@@ -131,9 +135,6 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                     backgroundColor: "whitesmoke",
                     color:'black'
                   }} 
-
-                
-                
                 id="gem-input-comment"  type="text" ref={gemRef} />
             </div>
             <br />
@@ -187,7 +188,7 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
                       <button
                         onClick={(evt) => {
                           evt.preventDefault();
-                          handleDeleteGem(g._id,    password);
+                          handleDeleteGem(g._id,password);
                         }}
 
                         style={{
