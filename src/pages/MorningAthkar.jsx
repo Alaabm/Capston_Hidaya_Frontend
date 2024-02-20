@@ -5,7 +5,8 @@ const MorningAthkar = () => {
   return (
     <>
     
-      <h1 style={{color:"rgb(90, 95, 295)"}} >Morning remembrance</h1>
+      <h2 style={{color:"rgb(37, 137, 225)"}}> Morning Athkar</h2>
+      <h2>أذكار الصباح</h2>
       <div className="card-dua">
           <div className="card-content-dua">
               <div className="ayat-alkursi">

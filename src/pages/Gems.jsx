@@ -16,6 +16,11 @@ const Gems = () => {
   const handleDeleteGem = (id, password) => {
     console.log("password", password, "id", id);
   };
+
+  // const textarea = document.querySelector("textarea");
+  // textarea.addEventListener("keyup", e => {
+  //   let scHeight = e.target.scrollHeight;
+  // });
 //http://localhost:3000/gems
 const BASE_URL = "https://hidaya-backend.onrender.com"
 

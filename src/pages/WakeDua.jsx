@@ -4,8 +4,13 @@ import InfoCollapse from "../components/InfoCollapse";
 const WakeDua = () => {
     return (
     <>
-        <h1 style={{color:"rgb(90, 95, 295)"}}>Duas After Waking Up</h1>
-        <div className="card-dua">
+    <h2 style={{color:"rgb(37, 137, 225)"}}> Dua After Waking Up</h2>
+    <h2> الدعاء بعد الاستيقاظ </h2>
+        <div 
+        style={{
+            minHeight:"50vh",
+        }}
+        className="card-dua">
             <div className="card-content-dua">
                 <div className="wake-dua">
                         <div className="wake-one">
@@ -13,11 +18,13 @@ const WakeDua = () => {
                                 اَلْحَمْدُ لِلّٰهِ الَّذِيْ عَافَانِيْ فِيْ جَسَدِيْ ، وَرَدَّ
                                 عَليَّ رُوْحِيْ ، وَأَذِنَ لِييْ بِذِكْرِهِ
                             </p>
+                        <br />
                         <InfoCollapse buttonText="Transliteration">
                             <p>
                                 Alḥamdu li-llāhi-l-ladhī ʿāfānī fī jasadī, wa radda ʿalayya rūḥī, wa adhina lī bi dhikrih.
                             </p>
                         </InfoCollapse>
+                        <br />
                         <InfoCollapse buttonText="Translation">
                             <p>
                                 All praise is for Allah Who granted me well-being in my body, and
@@ -30,12 +37,14 @@ const WakeDua = () => {
                             اَلْحَمْدُ لِلّٰهِ الَّذِيْ أَحْيَانَا بَعْدَ مَا أَمَاتَنَا
                             وَإِلَيْهِ النُّشُوْرُ
                         </p>
+                        <br />
                         <InfoCollapse buttonText="Transliteration">
                             <p>
                                 Alḥamdu li-llāhi-l-ladhī aḥyānā baʿda mā amātanā wa
                                 ilayhi-n-nushūr.
                             </p>
                         </InfoCollapse>
+                        <br />
                         <InfoCollapse buttonText="Translation">
                             <p>
                                 All praise is for Allah who gave us life after having taken it

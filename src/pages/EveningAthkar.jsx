@@ -41,7 +41,8 @@ const EveningAthkar = () => {
             </svg>
                 </a> */}
         </div>
-      <h1 style={{color:"rgb(90, 95, 295)"}}>Evening Remembrance</h1>
+      <h2 style={{color:"rgb(37, 137, 225)"}}> Evening Athkar</h2>
+      <h2> أذكار المساء</h2>
       <div className="card-dua">
             <div className="card-content-dua">
                <div className="ayat-alkursi">

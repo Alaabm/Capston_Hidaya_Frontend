@@ -5,16 +5,23 @@ const CharacterDua = () => {
   return (
     <>
         
-<h1 style={{color:"rgb(90, 95, 295)"}}>Good Character</h1>
-        <div className="card-dua">
+      <h2 style={{color:"rgb(37, 137, 225)"}}> Dua for Good Character</h2>
+      <h2>  الدعاء حسن الخلق</h2>
+        <div 
+         style={{
+          minHeight:"50vh",
+        }}
+        className="card-dua">
             <div className="card-content-dua">
                 <div className="good-dua">
                     <p style={{fontSize:"17pt", textAlign:"center", paddingBottom:"20px"}} >
                     اللهم كما أحسنت خلقي فحسن خلقي
                     </p>
+            <br />
             <InfoCollapse buttonText="Transliteration">
                 <p>Allahumma kama ahsanta khulqi fahassin kholoqi.</p>
             </InfoCollapse >
+            <br />
             <InfoCollapse buttonText="Translation">
                 <p>O Allah! You have made my creation perfect, so make my moral characteristics also be the best</p>
             </InfoCollapse>

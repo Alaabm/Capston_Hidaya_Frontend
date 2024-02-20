@@ -5,7 +5,7 @@
 
 li, a, button {
     font-family: monospace;
-    font-weight: 500;
+    /* font-weight: 100; */
     color:rgb(177, 189, 199)
 }
 
@@ -21,7 +21,7 @@ li, a, button {
 }
 
 #navBar{
-    list-style:none;
+    /* list-style:none; */
 
 }
 
@@ -31,26 +31,25 @@ li, a, button {
 }
 
 #navBar li a {
-    transition: all 0.4s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
-#navBar li a:hover{
+#navBar li a:hover,
+#navBar li a.active {
     color: aqua;
 }
 
-/* button{
-    padding: 9px 25px;
-    background-color:rgba(0,136, 169, 1);
-    border:none;
-    border-radius: 50px;
-    cursor:pointer;
-    transition: all 0.3s ease 0s;;
-} */
-
-button:hover{
-    /* background-color:rgba(0,136, 169, 0.8); */
-  
-  }
+#navBar li a:hover::after,
+#navBar li a.active::after {
+    content: "";
+    width: 0%;
+    height:2px;
+    background-color: aqua;;
+    /* position: absolute;
+    bottom: -4px;
+    left: 20px; */
+    
+}
 
   nav{
     display:flex;
@@ -62,32 +61,6 @@ button:hover{
   } 
   
 
-#navbar li a:hover,
-#navbar li a.active {
-    color: aquamarine;
-}
-  #navbar li a:hover::after,
-  #navbar li a.active::after{
-      /* content: ""; */
-      /* width: 30%; */
-      height:2px;
-      background-color: aquamarine;
-      position: absolute;
-      /* bottom: -4px; */
-      /* left: 20px; */
-  }
-
-
-  .logo {
-    /* height: 6em; */
-    /* padding: 0.8em; */
-    /* will-change: filter; */
-    /* transition: filter 300ms; */
-  }
-  
   .logo:hover {
-    filter: drop-shadow(0 0 2em #e8bfc9aa);
-  }
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+    filter: drop-shadow(0 0 2em #ff0ccaaa);
   }
