@@ -18,7 +18,7 @@ const Contact = () => {
   useEffect(() => {
     const getGems = async () => {
       try {
-        const response = await fetch(`${BASE_URL}/gems`);
+        const response = await fetch(`${BASE_URL}/emails`);
         const data = await response.json();
         setEmail(data);
         console.log(data);
@@ -34,11 +34,11 @@ const Contact = () => {
     evt.preventDefault();
     try {
       const body = {
-        first: (firstRef.current.value = ""),
-        last: (lastRef.current.value = ""),
-        phone: (phoneRef.current.value = ""),
-        email: (emailRef.current.value = ""),
-        message: (messageRef.current.value = ""),
+        first: (firstRef.current.value),
+        last: (lastRef.current.value ),
+        phone: (phoneRef.current.value ),
+        email: (emailRef.current.value ),
+        message: (messageRef.current.value),
       };
       //POST REQUEST
       const response = await fetch(`${BASE_URL}/emails`, {

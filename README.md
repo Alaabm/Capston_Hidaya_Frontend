@@ -6,3 +6,28 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+What Are Duas?
+
+Duas are invocations or prayers made by Muslims to communicate with Allah (God). They are an essential part of Islamic worship and are deeply rooted in the Quran and the Sunnah (teachings and practices of Prophet Muhammad, peace be upon him). Duas can be recited in times of joy, sorrow, need, or simply to express gratitude to the Almighty.
+
+How to Use This Website
+
+Browsing Duas
+-Explore our collection of duas such as morning and evening rememberance.
+
+Dhikr Counter
+-A digital counter to help you keep track of your rememberance on the go.
+
+Gems
+-Available for our community to share knowledge, advice and reflections. Users can make a gem post by inputing their username and password. 
+-To delete a post, user must input the password associated with that specific post. 
+
+In the footer, users have access to Hidaya Halaqahs instagram, directions, and link to the podcast .Companions of the Message', founded by two leading members of the Hidaya team.
+
+We as a community also encourage giving back. So we have provided easy access to a trusted organization to help those in need. 
+
+If users have any questions or comments, please feel free to use the contact form, and we will get back to you as soon as possible.
+
+
+

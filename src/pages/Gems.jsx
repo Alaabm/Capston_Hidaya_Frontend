@@ -24,8 +24,9 @@ const Gems = () => {
     if(g.password.trim() === password.trim()){
 
       try {
-              const response = await fetch(`http://localhost:8080/gems/${g._id}`, {
+              // const response = await fetch(`http://localhost:8080/gems/${g._id}`, {
 
+              const response = await fetch(`${BASE_URL}/gems/${g._id}`, {
                 method: 'DELETE',
                 headers: {
                   'Content-Type': 'application/json',
@@ -74,10 +75,10 @@ const BASE_URL = "https://capstone-hidaya-backend.onrender.com"
     evt.preventDefault();
     try {
       const body = {
-        username: usernameRef.current.value= "",
-        password: passwordRef.current.value= "",
-        topic: topicRef.current.value= "",
-        gem: gemRef.current.value= "",
+        username: usernameRef.current.value,
+        password: passwordRef.current.value,
+        topic: topicRef.current.value,
+        gem: gemRef.current.value,
       };
 //POST REQUEST
       const response = await fetch(`${BASE_URL}/gems`, {
