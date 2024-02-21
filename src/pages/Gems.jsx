@@ -8,7 +8,7 @@ import GemItem from '../components/GemItem'
 
 const Gems = () => {
   const [gems, setGems] = useState([]);
-  const usernameRef = useRef("string");
+  const usernameRef = useRef(null);
   const passwordRef = useRef(null);
   const topicRef = useRef(null);
   const gemRef = useRef(null);
@@ -52,8 +52,9 @@ const Gems = () => {
 
 
 // http://localhost:3000/gems
-const BASE_URL = "https://hidaya-backend.onrender.com"
+const BASE_URL = "https://capstone-hidaya-backend.onrender.com"
 
+//FETCH API
   useEffect(() => {
     const getGems = async () => {
       try {
@@ -68,16 +69,17 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
     getGems();
   }, []);
 
+//HANDLE SUBMIT FORM
   const handleSubmit = async (evt) => {
     evt.preventDefault();
     try {
       const body = {
-        username: usernameRef.current.value,
-        password: passwordRef.current.value,
-        topic: topicRef.current.value,
-        gem: gemRef.current.value,
+        username: usernameRef.current.value= "",
+        password: passwordRef.current.value= "",
+        topic: topicRef.current.value= "",
+        gem: gemRef.current.value= "",
       };
-
+//POST REQUEST
       const response = await fetch(`${BASE_URL}/gems`, {
         method: "POST",
         headers: {
@@ -95,16 +97,11 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
   };
   return (
     <>
-    {/* <GiCutDiamond 
-    style={{
-    
-    }}/> */}
-
     <div className="root">
 
 
-{/* GEM FORM */}
-{/* DIV FOR USERNAME AND PASSWORD */}
+
+{/* GEM POSTS */}
       <form className="gem-form"
 
 style={{

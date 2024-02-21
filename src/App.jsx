@@ -40,7 +40,7 @@ function App() {
           <Route path="/dhikr/allahuakbarCounter" element={<AllahuakbarCounter/>}/>
           <Route path="/dua/calamityDua" element={<CalamityDua/>}/>
           <Route path="/dua/characterDua" element={<CharacterDua/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/emails" element={<Contact/>}/>
           <Route path="/dhikr" element={<Dhikr/>}/>
           <Route path="/duas" element={<Duas/>}/>
           <Route path="/dua/eveningAthkar" element={<EveningAthkar/>}/>

@@ -59,7 +59,7 @@ const Footer = () => {
                 <a href="https://piousprojects.org/">Donate</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/emails">Contact</a>
             </li>
             
           </ul>
