@@ -12,11 +12,11 @@ const GemItem = ({g, handleDeleteGem}) => {
           <div className="gem-render-username-password-div">
             <p
               style={{
-                color: "rgb(87, 15, 255)",
+                color: "060119",
                 textAlign: "left",
                 fontSize: "17px",
                 // color:"rgb(3, 3, 33)",
-                color: "whitesmoke",
+                // color: "whitesmoke",
 
               }}
             >
