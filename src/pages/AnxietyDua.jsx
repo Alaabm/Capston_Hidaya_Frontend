@@ -5,11 +5,10 @@ import "../App.css";
 const AnxietyDua = () => {
   return (
     <>
-      <h2 style={{ color: "rgb(37, 137, 225)" }}>
-        {" "}
-        Dua for When Worried and Anxious
+      <h2 style={{ color: "rgb(37, 137, 225)" }}>Dua for When Worried and Anxious
       </h2>
-      <h2> </h2>
+      
+      <h2> دعاء الهم والحزن</h2>
       <div
         style={{
           minHeight: "50vh",

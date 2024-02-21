@@ -5,7 +5,7 @@ const CalamityDua = () => {
   return (
     <>
       <h2 style={{ color: "rgb(37, 137, 225)" }}>When Afflicted by Calamity</h2>
-      <h2> دعاء الخروج من المصيبة </h2>
+      <h2>   دعاء عند المصيبة  </h2>
       <div
         style={{
           minHeight: "50vh",

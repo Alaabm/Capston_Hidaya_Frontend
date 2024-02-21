@@ -5,7 +5,7 @@ const SuccessDua = () => {
   return (
     <>
       <h2 style={{color:"rgb(37, 137, 225)"}}> Dua for Success</h2>
-      <h2> الدعاء للنجاح</h2>
+      <h2>  دعاء التوفيق والنجاح</h2>
         <div 
         style={{
           minHeight:"50vh",

@@ -6,7 +6,7 @@ const CharacterDua = () => {
     <>
         
       <h2 style={{color:"rgb(37, 137, 225)"}}> Dua for Good Character</h2>
-      <h2>  الدعاء حسن الخلق</h2>
+      <h2>   دعاء حسن الخُلق</h2>
         <div 
          style={{
           minHeight:"50vh",

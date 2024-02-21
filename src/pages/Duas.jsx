@@ -112,7 +112,7 @@ const Duas = () => {
           <div className="card">
             <div className="card-content">
               <h5 style={{className:"card-title"}}>Istikhara:The Prayer of Seeking Guidance</h5>
-              <h3>دعاء الاستخار</h3>
+              <h3>دعاء الاستخاره </h3>
               <ButtonLink
                 route="./dua/istikharaDua"
                 buttonLinkText="Dua"
@@ -123,7 +123,7 @@ const Duas = () => {
           <div className="card">
             <div className="card-content">
               <h5 style={{className:"card-title"}}>Anxiety and Worry</h5>
-                <h3></h3>
+                <h3>دعاء الهم والحزن</h3>
                 <ButtonLink
                   route="./dua/anxietyDua"
                   buttonLinkText="Dua"
@@ -134,7 +134,7 @@ const Duas = () => {
           <div className="card">
             <div className="card-content">
               <h5 style={{className:"card-title"}}>Success</h5>
-                <h3></h3>
+                <h3>دعاء التوفيق والنجاح</h3>
               <ButtonLink
                 route="./dua/successDua"
                 buttonLinkText="Dua"
@@ -145,7 +145,7 @@ const Duas = () => {
           <div className="card">
             <div className="card-content">
               <h5 style={{className:"card-title"}}>When Afflicted by Calamity</h5>
-                <h3></h3>
+                <h3>دعاء عند المصيبة</h3>
                 <ButtonLink
                     route="./dua/calamityDua"
                     buttonLinkText="Dua"
@@ -156,7 +156,7 @@ const Duas = () => {
           <div className="card">
             <div className="card-content">
               <h5 style={{className:"card-title"}}>Good Character</h5>
-                <h3></h3>
+                <h3>دعاء حسن الخُلق</h3>
                 <ButtonLink
                     route="./dua/characterDua"
                     buttonLinkText="Dua"
