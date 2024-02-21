@@ -56,11 +56,12 @@ const Footer = () => {
             </li>
             {/* <li><a href="/html/about.html">About</a></li> */}
             <li>
-              <a href="/contact">Contact</a>
-            </li>
-            <li>
                 <a href="https://piousprojects.org/">Donate</a>
             </li>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+            
           </ul>
         </div>     
     </footer>
