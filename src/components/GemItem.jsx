@@ -14,6 +14,10 @@ const GemItem = ({g, handleDeleteGem}) => {
               style={{
                 color: "rgb(87, 15, 255)",
                 textAlign: "left",
+                fontSize: "17px",
+                // color:"rgb(3, 3, 33)",
+                color: "whitesmoke",
+
               }}
             >
               {g.username}
@@ -23,7 +27,13 @@ const GemItem = ({g, handleDeleteGem}) => {
           <br />
           <div className="gem-render-topic-gem-div">
             <h3>{g.topic}</h3>
-            <p>{g.gem}</p>
+            <p 
+            style={{
+              textAlign: "center",
+              padding: "30px",
+            }}
+            >
+              {g.gem}</p>
           </div>
         </div>
         <div className="gem-render-delete-div">

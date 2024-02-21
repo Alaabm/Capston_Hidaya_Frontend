@@ -85,10 +85,11 @@ const BASE_URL = "https://hidaya-backend.onrender.com"
         },
         body: JSON.stringify(body),
       });
+
       const data = await response.json();
 
       setGems([...gems, data]);
-    } catch (err) {
+    }catch (err) {
       console.log(err);
     }
   };

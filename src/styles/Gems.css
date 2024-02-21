@@ -39,7 +39,8 @@
     /* border: 2px solid rgb(87, 15, 255); */
     background-color: #060119;
     /* background: linear-gradient( #8276b6, #afc8d7); */
-    border-radius: 20px;
+    /* border-radius: 90px; */
+    border: 9px solid white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     /* margin-bottom: 100px; */
@@ -69,26 +70,36 @@
     /* text-overflow: ellipsis; */
     font-size: 15px;
     padding-bottom: 15px ;
+
     
 }
-.create-gem input:hover  {
+#create-gem-button:hover  {
     /* border: 2px solid rgb(87, 15, 255); */
     /* background-color: #060119;
     /* border-radius: 10px; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
-    /* color: rgb(163, 192, 201); */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* overflow: hidden;  */
     /* background-color: #092021; */
-    background-color: #1e0217;
+    /* background-color: #3e7f81;
+    border: 2px solid #3e7f81; */
+    border: 2px solid #011f20;;
+    background-color: #011f20;
+    color: whitesmoke
+
     /* box-sizing: border-box; */
 }
 
 #create-gem-button{
-    border: 2px solid #3e7f81;;
-    background-color: #011f20;
+    /* border: 2px solid #011f20;
+    background-color: #011f20; */
+    background-color: lightblue;
+    border: 2px solid lightblue;
     /* background-color: #092021; */
-    font-weight: 800;
+    font-weight: bolder;
     border-radius:10px;
+    color: rgb(3, 3, 33) ;
+    width: 200px;
+    height: 40px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     /* overflow: hidden; */
 }
@@ -98,16 +109,17 @@
 .gem-render{
     /* border: 2px solid rgb(87, 15, 255); */
     border-radius:10px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 100px;
     margin-right: 100px;
     /* padding: 10px; */
-    /* max-width: 400px; */
+    /* max-width: 700px; */
     /* display:flex; */
     /* background-color: rgb(3, 3, 33); */
     /* background-color: rgb(143, 162, 203); */
     /* background: linear-gradient( #8276b6, #afc8d7); */
-    background: linear-gradient( #afc8d7, #8276b6);
+    /* background: linear-gradient( #afc8d7, #8276b6); */
+    background-color: rgb(3, 3, 33);
 
 }
 
@@ -137,13 +149,14 @@
 
 .gem-render-username-password-div, p{
     text-align: left;
-    padding-left:20px;
+    /* padding-left:20px; */
 }
 
 .gem-render-username-password-div, h3{
     text-align: center;
     padding-left:20px;
-    color:rgb(87, 15, 255);
+    padding-top: 10px;
+    color: rgb(3, 3, 33);
     font-weight: bolder;
 
 }
@@ -154,7 +167,8 @@
 }
 .gem-render-topic-gem-div{
     /* border: 2px solid blue; */
-    background-color: rgb(3, 3, 33);
+    background-color: whitesmoke;
+    /* background-color: "whitesmoke"; */
     /* border-radius:10px; */
     /* color:rgb(171, 11, 11); */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -177,7 +191,7 @@
     margin: auto;
     text-align: center;
     word-spacing: 4px;
-    color: rgb(138, 162, 183);
+    color: rgb(11, 48, 80);
     font-size:11pt;
     padding-bottom: 10px;
 }
