@@ -49,13 +49,23 @@ const Contact = () => {
         body: JSON.stringify(body),
       });
 
+      //ALERT MESSAGE
       const data = await response.json();
-
-      setEmail([...email, data]);
+      if(data)
+      {setEmail([...email, data])
+      window.alert("Email sent")
+      }
     } catch (err) {
       console.log(err);
     }
   };
+      
+  // const data = await response.json();
+  // setEmail([...email, data]);
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
 
   return (
     <>
