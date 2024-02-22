@@ -56,6 +56,9 @@ const Footer = () => {
             </li>
             {/* <li><a href="/html/about.html">About</a></li> */}
             <li>
+                <a href="https://yaqeeninstitute.org/">Resource</a>
+            </li>
+            <li>
                 <a href="https://piousprojects.org/">Donate</a>
             </li>
             <li>
