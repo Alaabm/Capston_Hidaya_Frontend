@@ -147,8 +147,16 @@ const Contact = () => {
               ref={firstRef}
               placeholder="First Name"
             />
+            <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "rgb(151,46,46)",
+              fontSize: "12px",
+              padding: "10px",
+            }}
+            >*Required</label>
             <br />
-
             <input
               style={{
                 backgroundColor: "whitesmoke",
@@ -160,6 +168,15 @@ const Contact = () => {
               ref={lastRef}
               placeholder="Last Name"
             />
+            <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "rgb(151,46,46)",
+              fontSize: "12px",
+              padding: "10px",
+            }}
+            >*Required</label>
           </div>
           <div
             style={
@@ -181,18 +198,38 @@ const Contact = () => {
               ref={phoneRef}
               placeholder="Phone Number"
             />
+            <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "black",
+              fontSize: "12px",
+              // padding: "10px",
+              paddingLeft: "2px",
+            }}
+            >Not Required</label>
             <br />
             <input
               style={{
                 backgroundColor: "whitesmoke",
                 border: "1px solid whitesmoke",
                 color: "black",
+                
               }}
               type="text"
               id="email "
               ref={emailRef}
               placeholder="Email Address"
             />
+            <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "rgb(151,46,46)",
+              fontSize: "12px",
+              padding: "10px",
+            }}
+            >*Required</label>
           </div>
           <div
             style={{
@@ -200,6 +237,15 @@ const Contact = () => {
               paddingBottom: "10px",
             }}
           >
+            <p 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "rgb(151,46,46)",
+              fontSize: "12px",
+              paddingLeft: "450px",
+            }}
+            >*Required</p>
             <textarea
               style={{
                 width: "40%",
@@ -217,8 +263,9 @@ const Contact = () => {
               ref={messageRef}
               placeholder="Comment or Message"
             />
+            
           </div>
-          <button className="send-button" onClick={handleSubmit} >Send</button>
+          <button className="send-button" onClick={handleSubmit}>Send</button>
         </div>
       </form>
     </>

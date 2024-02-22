@@ -138,7 +138,17 @@ style={{
 }}
       onSubmit={handleSubmit}
       >
+        <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "black",
+              fontSize: "12px",
+              paddingRight: "900px",
+            }}
+            >*Required</label>
           <div className = "username-password-input" >
+
                   <input
                       style={{
                         textAlign: "center" ,
@@ -162,6 +172,15 @@ style={{
           </div>
           <br />
 {/* DIV FOR TOPIC AND GEM COMMENT */}
+        <label 
+            style={{
+              fontWeight: "bold",
+              fontStyle: "italic",
+              color: "black",
+              fontSize: "12px",
+              paddingRight: "900px",
+            }}
+            >*Required</label>
           <div className = "topic-gem-input">
               <p style={{
                 textAlign:"center",
@@ -170,10 +189,9 @@ style={{
                 fontFamily:'monospace',
                 paddingTop: "10px",
                 paddingRight: "25px",
-
                 }}
                 >  
-                  Topic</p>
+                Topic</p>
                 <input style={{
                   padding: "5px",
                   width:"150pt",
@@ -183,7 +201,6 @@ style={{
                 }}
                 
                 type="text" ref={topicRef}  placeholder="Type topic here"/>
-                    <br />
               <p style={{
                 textAlign:"center",
                 color:"whitesmoke",
@@ -192,16 +209,15 @@ style={{
                 paddingTop: "10px",
                 paddingRight: "20px",
                 letterSpacing:"5px",
-                
-                
                 }}>GEM</p>
                 <GiCutDiamond/>
+                <br />
                 <textarea 
                   style={{ 
                     backgroundColor: "whitesmoke",
                     color:'black'
                   }} 
-                id="gem-input-comment"  type="text" ref={gemRef}  placeholder="Type response here"/>
+                id="gem-input-comment"  type="text" ref={gemRef}  placeholder="Type GEM here..."/>
             </div>
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
@@ -209,7 +225,9 @@ style={{
               {/* <input  id="create-gem-button"
                 type="submit" value="Create Gem" 
               /> */}
-              <button className="create-gem-button" onClick={handleSubmit} >POST GEM</button>
+              <button
+             
+              className="create-gem-button" onClick={handleSubmit} >POST GEM</button>
 
             </div> 
       </form>

@@ -42,10 +42,17 @@ const NavBar = () => {
                         <li><a href="/duas">Duas</a></li>
                         <li><a href="/dhikr">Dhikr</a></li>
                         <li><a href="/gems">Gems</a></li>
+                        <li>
+                <a href="https://piousprojects.org/">EMERGENCY RELIEF FOR GAZA</a>
+            </li>
                     </ul>
-                    <button><a className="cta" href="/about">About Us</a></button>
+                    <button 
+                    style={{
+                        width: '35%',
+                    }}
+                    ><a className="cta" href="/emails">Contact Us</a></button>
                     {/* <ButtonLink route="./contact" buttonLinkText="Contact"></ButtonLink> */}
-
+                     
                 </nav>
         </>
     )

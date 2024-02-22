@@ -22,7 +22,7 @@
     /* text-align: center; */
     /* justify-content: space-between; */
     /* padding-left: 250px; */
-    border: 2px solid rgb(87, 15, 255);
+    border: 2px solid rgb(85, 11, 245);
     background-color: #060119;
     /* background: linear-gradient( #8276b6, #afc8d7); */
 
@@ -215,7 +215,7 @@
     background-color: #2e465f;
     border: 2px solid #2e465f;
     color: whitesmoke(3, 3, 33) ;
-    width: 80px;
+    width: 100px;
     border-radius:5px;
     transition-duration: 0.2s;
 
@@ -225,7 +225,7 @@
     border: 2px solid #060119;;
     background-color: #060119;
     color: whitesmoke;
-    width: 60px;
+    width: 100px;
     border-radius:5px;
 
 

@@ -52,17 +52,17 @@ const Footer = () => {
               <a href="https://www.google.com/maps/place/MAS+Bronx+Muslim+Center+(Muslim+American+Society+of+Upper+New+York)/@40.8474069,-73.8665295,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f498197ac18d:0x85d26c852b2af850!8m2!3d40.8474069!4d-73.8665295!16s%2Fg%2F1tdp5zrr?entry=ttu">Location</a>
             </li>
             <li>
-              <a href="https://open.spotify.com/show/0ap3QMQixhPuhxXVT22hJO">Podcast</a>
+              <a href="https://open.spotify.com/show/0ap3QMQixhPuhxXVT22hJO">Companions of the Message</a>
             </li>
             {/* <li><a href="/html/about.html">About</a></li> */}
-            <li>
+            {/* <li>
                 <a href="https://yaqeeninstitute.org/">Resource</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <a href="https://piousprojects.org/">Donate</a>
-            </li>
+            </li> */}
             <li>
-              <a href="/emails">Contact</a>
+              <a href="/about">About Us</a>
             </li>
             
           </ul>
