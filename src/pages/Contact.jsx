@@ -54,12 +54,41 @@ const Contact = () => {
       if(data)
       {setEmail([...email, data])
       window.alert("Email sent")
-      }
+      reset()
+    }
     } catch (err) {
       console.log(err);
     }
-  };
+  
       
+  function reset(){
+    firstRef.current.value="";
+     lastRef.current.value="";
+     phoneRef.current.value="" ;
+     emailRef.current.value="";
+    messageRef.current.value=""; 
+  }
+
+};
+
+  // OR SECOND ALERT METHOD OPTION WITH FUNCTION RESET!
+
+  //     const data = await response.json();
+  //     if(data)
+  //     {setEmail([...email, data])
+  //     window.alert("Email sent")
+  //      firstRef.current.value="";
+  //       lastRef.current.value="";
+  //        phoneRef.current.value="" ;
+  //        emailRef.current.value="";
+  //      messageRef.current.value="";  
+  //     // reset()
+  //   }
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
+
   // const data = await response.json();
   // setEmail([...email, data]);
   //   } catch (err) {
@@ -179,7 +208,7 @@ const Contact = () => {
               placeholder="Comment or Message"
             />
           </div>
-          <input className="send-button" type="submit" value="Send" />
+          <button className="send-button" onClick={handleSubmit} >Send Message</button>
         </div>
       </form>
     </>

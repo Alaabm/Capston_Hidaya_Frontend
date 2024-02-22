@@ -90,13 +90,26 @@ const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL
         body: JSON.stringify(body),
       });
 
-      const data = await response.json();
+// ALERT METHOD OPTION WITH FUNCTION RESET!
+const data = await response.json();
+if(data)
+{setGems([...gems, data])
+window.alert("GEM Posted!")
+reset()
+}
+} catch (err) {
+console.log(err);
+}
+function reset(){
+usernameRef.current.value="";
+passwordRef.current.value="";
+topicRef.current.value="" ;
+gemRef.current.value="";
+}
 
-      setGems([...gems, data]);
-    }catch (err) {
-      console.log(err);
-    }
-  };
+};
+
+
   return (
     <>
     <div className="root">
@@ -183,9 +196,11 @@ style={{
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
             <div className="create-gem">
-              <input  id="create-gem-button"
+              {/* <input  id="create-gem-button"
                 type="submit" value="Create Gem" 
-              />
+              /> */}
+              <button className="create-gem-button" onClick={handleSubmit} >POST GEM</button>
+
             </div> 
       </form>
 
