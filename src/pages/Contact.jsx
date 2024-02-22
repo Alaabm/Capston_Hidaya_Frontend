@@ -12,7 +12,7 @@ const Contact = () => {
 
   // http://localhost:8080/emails
 
-  const BASE_URL = "https://capstone-hidaya-backend.onrender.com";
+  const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL
 
   //FETCH API
   useEffect(() => {

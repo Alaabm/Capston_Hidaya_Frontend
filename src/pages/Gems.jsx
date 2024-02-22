@@ -3,7 +3,8 @@ import { useState, useEffect, useRef } from "react";
 // import "../App.jsx";
 import "../styles/Gems.css";
 import { GiCutDiamond } from "react-icons/gi";
-import GemItem from '../components/GemItem'
+import GemItem from '../components/GemItem';
+
 
 
 const Gems = () => {
@@ -53,7 +54,7 @@ const Gems = () => {
 
 
 // http://localhost:3000/gems
-const BASE_URL = "https://capstone-hidaya-backend.onrender.com"
+const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL
 
 //FETCH API
   useEffect(() => {
@@ -195,7 +196,7 @@ style={{
             gems.map((g) => {
               return (
                 //handleDeleteGem component
-                <GemItem g={g} handleDeleteGem={handleDeleteGem}/>
+                <GemItem key={g._id} g={g} handleDeleteGem={handleDeleteGem}/>
 
               );
             })

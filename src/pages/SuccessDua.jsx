@@ -15,7 +15,7 @@ const SuccessDua = () => {
               </div>
                       <div className="success-dua">
                       <p style={{ fontSize: "17pt" }}>
-                      إِنَّا لِلهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي ، وَاخْلُفْ لِي خَيْرًا مِنْهَا
+                      وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ 
                       </p>
                       <br />
                       <InfoCollapse buttonText="Transliteration">
@@ -23,7 +23,7 @@ const SuccessDua = () => {
                       </InfoCollapse >
                       <br />
                       <InfoCollapse buttonText="Translation">
-                          <p>My success is not but through Allah. Upon him I have relied, and to Him I return.</p>
+                          <p>My success is not, but through Allah. Upon him I have relied, and to Him I return.</p>
                       </InfoCollapse>
                       </div>
             </div>
