@@ -218,7 +218,7 @@ const Contact = () => {
               placeholder="Comment or Message"
             />
           </div>
-          <button className="send-button" onClick={handleSubmit} >Send Message</button>
+          <button className="send-button" onClick={handleSubmit} >Send</button>
         </div>
       </form>
     </>
