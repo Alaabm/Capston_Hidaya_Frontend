@@ -1,4 +1,11 @@
-Hidaya Halaqah
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 What Are Duas?
 
@@ -18,6 +25,5 @@ We as a community also encourage giving back. So we have provided easy access to
 
 If users have any questions or comments, please feel free to use the contact form, and we will get back to you as soon as possible.
 
-Node.js, Express, and MongoDB This project is a website developed using Node.js, Express, and MongoDB. It serves as a basic framework for building web applications leveraging these technologies. Below are the key components and instructions for running the project locally.
 
 Technologies Used Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine for building scalable network applications. Express: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. MongoDB: A document-oriented NoSQL database used for high volume data storage.
