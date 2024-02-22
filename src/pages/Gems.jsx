@@ -159,7 +159,7 @@ style={{
                   color:'black'
                 }}
                 
-                type="text" ref={topicRef} />
+                type="text" ref={topicRef}  placeholder="Type topic here"/>
                     <br />
               <p style={{
                 textAlign:"center",
@@ -178,7 +178,7 @@ style={{
                     backgroundColor: "whitesmoke",
                     color:'black'
                   }} 
-                id="gem-input-comment"  type="text" ref={gemRef} />
+                id="gem-input-comment"  type="text" ref={gemRef}  placeholder="Type response here"/>
             </div>
             <br />
 {/* DIV FOR SUBMIT BUTTON FOR GEM COMMENT */}
