@@ -53,7 +53,7 @@ const Gems = () => {
 
 
 
-// http://localhost:3000/gems
+// http://localhost:8080/gems
 const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL
 
 //FETCH API
@@ -75,7 +75,13 @@ const BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL
   const handleSubmit = async (evt) => {
     evt.preventDefault();
     try {
-      const body = {
+      if(
+         usernameRef.current.value &&
+         passwordRef.current.value &&
+         topicRef.current.value &&
+         gemRef.current.value 
+      ) {
+        const body = {
         username: usernameRef.current.value,
         password: passwordRef.current.value,
         topic: topicRef.current.value,
@@ -97,9 +103,13 @@ if(data)
 window.alert("GEM Posted!")
 reset()
 }
+      }else{
+        window.alert("Please fill in...")
+      }
 } catch (err) {
 console.log(err);
 }
+
 function reset(){
 usernameRef.current.value="";
 passwordRef.current.value="";

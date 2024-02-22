@@ -33,12 +33,19 @@ const Contact = () => {
   const handleSubmit = async (evt) => {
     evt.preventDefault();
     try {
-      const body = {
-        first: (firstRef.current.value),
-        last: (lastRef.current.value ),
-        phone: (phoneRef.current.value ),
-        email: (emailRef.current.value ),
-        message: (messageRef.current.value),
+      if(
+        firstRef.current.value &&
+        lastRef.current.value &&
+        phoneRef.current.value ||
+        emailRef.current.value &&
+        messageRef.current.value 
+      ){
+        const body = {
+        first: firstRef.current.value,
+        last: lastRef.current.value ,
+        phone: phoneRef.current.value ,
+        email: emailRef.current.value ,
+        message: messageRef.current.value,
       };
       //POST REQUEST
       const response = await fetch(`${BASE_URL}/emails`, {
@@ -56,17 +63,20 @@ const Contact = () => {
       window.alert("Email sent")
       reset()
     }
+      }else{
+      window.alert("Please fill in form to send the message.")
+    }
     } catch (err) {
       console.log(err);
     }
   
       
   function reset(){
-    firstRef.current.value="";
-     lastRef.current.value="";
-     phoneRef.current.value="" ;
-     emailRef.current.value="";
-    messageRef.current.value=""; 
+  firstRef.current.value="";
+  lastRef.current.value="";
+  phoneRef.current.value="" ;
+  emailRef.current.value="";
+  messageRef.current.value=""; 
   }
 
 };
